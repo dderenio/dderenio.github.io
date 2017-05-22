@@ -23,12 +23,14 @@ body{
   
   position: relative;
   
+  outline: 2px solid red;
+  
   padding-top: 20px;
 }
 
 .section-wrapper{
   height: 100vh;
-  width: 80vw;
+  max-width: 1200px;
   
   margin: 0 auto;
   
@@ -103,13 +105,16 @@ h5{
 }
 
 .main-intro{  
+  padding-top: 0;
 }
 
 .main-txt{
   max-width: 585px;
   position: relative;
   left: 7.5vw;
-  padding-top: 135px;
+  padding-top: 255px;
+  
+  outline: 2px solid red;
 
 }
 
@@ -121,16 +126,14 @@ h5{
 }
 
 .main-drake{
-  position: relative;
+  position: absolute;
   float: right;
-  right: 70px;
-  top:-300px;
+  right: 175px;
+  top:40px;
+  
+  padding-top: 140px;
     
   display: inline-block;
-  
-  height: 25%;
-  width: 25%;
-
 }
 
 
