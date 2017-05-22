@@ -35,6 +35,8 @@ body{
   margin: 0 auto;
   
   outline: 2px solid blue;
+  
+  position: relative;
 }
 
 header{
@@ -123,12 +125,14 @@ h5{
   font-weight: 200;
   color: #9B9B9B;
   line-height: 50px;
+  
+  max-width: 465px;
 }
 
 .main-drake{
   position: absolute;
   float: right;
-  right: 175px;
+  right: 65px;
   top:40px;
   
   padding-top: 140px;
