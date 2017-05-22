@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.75em;
+
+  
+  display: flex;
+  justify-content: center;
+  
+  padding: 0;
+  margin: 0;
+  
+  overflow-x: hidden;
+}
+
+.wrapper{
+  max-width: 1200px;
+  
+  position: relative;
+  
+  padding-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+header{
+  width:100%;
+}
+
+a{
+  font-size: 1em;
+  font-weight: 700;
+  padding: 1rem;
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
+h1{
+  font-family: SFUIDisplay-Semibold;
+  font-size: 60px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  margin: 40px 0px;
+}
+
+h5{
+  font-size: 26px;
+  font-weight: 300;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  line-height: 75px;
+  
+  margin: 15px 0px;
+}
+
+.main{
+  background-color: white;
+}
+
+.main-nav{
+  max-width: 385px;
+  position: absolute;
+  right:5vw;
+  top:5vh;
+}
+
+.main-nav ul{
+  padding: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+}
+
+.main-nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.contact-btn{
+  color: #2BC69E;
+  padding: 10px 20px;
+  
+  border: 2px solid #2BC69E;
+  border-radius: 100px;
+}
+
+.contact-btn:hover{
+  background-color: #2BC69E;
+  color: white;
+}
+
+.main-intro{  
+  outline: 2px solid red;
+}
+
+.main-txt{
+  max-width: 585px;
+  position: relative;
+  left: 7.5vw;
+  padding-top: 135px;
+
+  
+  outline: 2px solid blue;
+}
+
+.intro-txt{
+  font-size: 22px;
+  font-weight: 200;
+  color: #9B9B9B;
+  line-height: 50px;
+}
+
+.main-drake{
+  position: relative;
+  float: right;
+  right: 70px;
+  top:-300px;
+    
+  display: inline-block;
+  
+  height: 25%;
+  width: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
