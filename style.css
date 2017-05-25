@@ -24,7 +24,7 @@ body{
 }
 
 .section-wrapper{
-  min-height: 90vh;
+  height: 100%;
   max-width: 1200px;
   
   margin: 0 auto;
@@ -36,6 +36,7 @@ body{
 
 header{
   width:100%;
+  position: absolute;
 }
 
 a{
@@ -47,11 +48,11 @@ a{
 }
 
 p{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   
   text-rendering: optimizeLegibility;
-  line-height: 25px;
+  line-height: 24px;
   color: #4A4A4A;
 }
 
@@ -67,13 +68,14 @@ h2{
   color: #2BC69E;
 }
 
+.h2-alt{
+  color: white;
+}
+
 h3{
   font-size: 23px;
   color:#4A4A4A;
   font-weight: 300;
-}
-.h2-alt{
-  color: white;
 }
 
 h4{
@@ -83,7 +85,7 @@ h4{
 }
 
 h5{
-  font-size: 16px;
+  font-size: 16.5px;
   font-weight: 300;
   color: #4A4A4A;
   
@@ -112,7 +114,7 @@ button{
   position: relative;
   float: right;
   right: 6.5vw;
-  top:7.5vh;
+  top:55px;
 }
 
 .main-nav ul{
@@ -158,33 +160,34 @@ button{
 }
 
 .main-wrapper{
-
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  
-  outline: 2px solid orange;
-  
-  height: 90vh;
+  justify-content: flex-start;
+    
+  height: 705px;
   width: 100%;
+  
+  background-image: url(img/drake-main.png);
+  background-repeat: no-repeat;
+  background-position: bottom right 13.5%;
+  
+  outline: 2px solid red;
 }
 
 .main-intro{  
-  
-  display: flex;
-  align-items: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-left: 10vw;
 }
 
-/*
+
 
 .main-txt{
   max-width: 535px;
   position: relative;
-  left: 8.5vw;
-  top: 32.5vh;
 }
 
-*/
+
 
 .main-txt p{
   max-width:375px;  
@@ -193,12 +196,13 @@ button{
 
 .intro-txt{
   color: #9B9B9B;
-  line-height: 40px;
+  line-height: 35px;
   
   max-width: 475px;
 }
 
 
+/*
 
 .main-drake{
   height:445.5px;
@@ -206,6 +210,7 @@ button{
   margin: 50px 0px 0px 50px;
 }
 
+*/
 
 .about{
   background-color: #2BC69E;
@@ -217,11 +222,13 @@ button{
 }
 
 .about-cnt{
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  padding: 80px 0px;
   
   color: white;
 }
@@ -239,9 +246,10 @@ button{
   top:45px;
   left: 8.5vw;
   position: relative;
+  display: inline-block;
   
   padding-top: 30px;
-  margin: 0;
+  margin: 0;  
 }
 
 .skills-wrapper{
@@ -252,10 +260,16 @@ button{
 }
 
 .skills-cnt{
-  margin: 20vh auto 0 auto;
+  margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
   
-  max-width:42.5%;  
+  max-width:42.5%;
+  
+  padding: 10% 0;
 }
 
 .skills-cnt p{
@@ -271,27 +285,32 @@ button{
   align-content: center;
   
   margin-bottom: 25px;
+  
+  padding-left: 80px;
+  
+  min-width: 45%;
 }
 
 .skills-img{
-  display: inline-block;
-  position: absolute;
-  left:-40px;  
-        
-  width: 40px;
+  background-repeat: no-repeat;
+  background-position: top 15px left;
+  background-size: 45px;
 }
 
-.skills-img-1{
-  top:15px;
+.skills-cnt-ux{
+  background-image: url(img/research.png);
 }
 
-.skills-img-2{
-  top:180px;
+.skills-cnt-front{
+  background-image: url(img/code.png);
 }
 
-.skills-img-3{
-  top:305px;
+.skills-cnt-design{
+  background-image: url(img/ux.png);
 }
+
+
+
 
 .portfolio-width{
   margin: 0px auto;
@@ -381,6 +400,8 @@ button{
 .test-wrapper{
   background-color: #2BC69E;
   display: flex;
+  
+  padding: 10% 0;
 }
 
 .test{
