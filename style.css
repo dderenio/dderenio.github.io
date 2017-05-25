@@ -163,7 +163,7 @@ button{
   display: flex;
   justify-content: flex-start;
     
-  height: 705px;
+  padding: 17.5% 0;
   width: 100%;
   
   background-image: url(img/drake-main.png);
