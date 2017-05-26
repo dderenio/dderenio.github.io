@@ -177,7 +177,7 @@ button{
   background-repeat: no-repeat;
   background-position: bottom right 13.5%;
   
-  min-height: 75vh;
+  min-height: 70vh;
   max-height: 90vh;
   
 }
@@ -186,7 +186,7 @@ button{
  display: flex;
  justify-content: center;
  align-items: center;
- padding-left: 10vw;
+ margin-left: 15%;
 }
 
 
