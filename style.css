@@ -177,6 +177,9 @@ button{
   background-repeat: no-repeat;
   background-position: bottom right 13.5%;
   
+  min-height: 75vh;
+  max-height: 90vh;
+  
 }
 
 .main-intro{  
