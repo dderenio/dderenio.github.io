@@ -55,7 +55,7 @@ p{
   
   text-rendering: optimizeLegibility;
   line-height: 1.875;
-  color: #4A4A4A;
+  color: #787F8C;
 }
 
 h1{
@@ -88,7 +88,7 @@ h4{
 
 h5{
   font-size: 16.5px;
-  font-weight: 300;
+  font-weight: 600;
   color: #4A4A4A;
   
   margin: 10px 0px;
