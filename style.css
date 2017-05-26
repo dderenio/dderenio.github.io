@@ -32,8 +32,6 @@ body{
   margin: 0 auto;
     
   position: relative;
-  
-  outline: 2px solid blue;
 }
 
 header{
@@ -107,6 +105,13 @@ button{
   cursor: pointer;
 }
 
+.logo{
+  height: 40px;
+  position: absolute;
+  left: 15%;
+  top: 60px;
+}
+
 
 .main{
   background-color: white;
@@ -146,7 +151,7 @@ button{
 
 .resume-btn{
   background-color: white;
-  padding: 20px 30px;
+  padding: 18px 30px;
   
   margin: 30px 0; 
 }
@@ -177,8 +182,8 @@ button{
   background-repeat: no-repeat;
   background-position: bottom right 13.5%;
   
-  min-height: 70vh;
-  max-height: 90vh;
+  min-height: 85vh;
+  max-height: 100vh;
   
 }
 
@@ -197,7 +202,7 @@ button{
 
 
 .main-txt p{
-  max-width:375px;  
+  max-width:365px;  
 }
 
 
@@ -210,11 +215,9 @@ button{
 
 .about{
   background-color: #00DD99;
-}
-
-.about-wrapper{
-  display: flex;
-  justify-content: center;
+  padding: 100px 0px;
+  
+  transform: skewY(-3deg) translateY(1.15%);
 }
 
 .about-cnt{
@@ -224,27 +227,34 @@ button{
   justify-content: center;
   align-items: center;
   
-  padding: 80px 0px;
+  padding: 8.5% 0px;
   
   color: white;
+  
+  transform: skewY(3deg);
+
 }
 
 .about-cnt  p{
-  max-width: 625px;
+  max-width: 675px;
   text-align: center;
   color: white;
   font-size: 16px;
   font-weight: 500;
+  
+  padding: 0 30px;
 }
 
 .title-left{
-  top:65px;
+  top:105px;
   left: 8.5vw;
   position: absolute;
   display: inline-block;
   
   padding-top: 30px;
   margin: 0;  
+  
+  z-index: 999;
 }
 
 .skills-wrapper{
@@ -252,10 +262,11 @@ button{
   justify-content: center;
   align-content: center;
   align-self: center;
+  
 }
 
 .skills-cnt{
-  margin: 60px auto 0 auto;
+  margin: 120px auto 0 auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -264,7 +275,7 @@ button{
   
   max-width:42.5%;
   
-  padding: 10% 0;
+  padding: 10% 0 5% 0;
 }
 
 .skills-cnt p{
@@ -308,7 +319,6 @@ button{
   margin: 0px auto;
   position: relative;
   
-  outline: 2px solid orange;
 }
 
 .portfolio-item{
@@ -316,12 +326,8 @@ button{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  
-  outline: 2px solid orange;
-  
+  align-items: center; 
 }
-
 
 .port-cnt-wrap{
   max-width: 375px;
@@ -332,8 +338,10 @@ button{
   align-items:flex-start;
   align-self: center;
   
-  margin-right: 80px;
+  margin-right: 80px; 
   
+  transform: skewY(3deg);
+
 }
 
 .port-cnt-wrap-left{
@@ -343,15 +351,23 @@ button{
 }
 
 .portfolio-item:nth-child(1){
-  padding-top: 205px;
-  
-}.portfolio-item:nth-child(3){
+  padding-top: 255px; 
+}
+
+.portfolio-item:nth-child(3){
   padding-bottom: 60px;
 }
 
 .portfolio-item p{
   font-size: 14px;
   margin: 5px 0px;
+}
+
+.portfolio-right{
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  
+  transform: skewY(-3deg);
 }
 
 .portfolio-left{
@@ -366,8 +382,9 @@ button{
 
 
 .bmo-portfolio{
-  width: 25%;
+  width: 35%;
   height: 45%;
+  transform: skewY(3deg);
 }
 
 .dg-portfolio{
@@ -378,6 +395,9 @@ button{
 .atm-portfolio{
   width: 25%;
   height: 25%;
+  
+  transform: skewY(3deg);
+
 }
 
 
