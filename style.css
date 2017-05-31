@@ -180,11 +180,22 @@ button{
   
   background-image: url(img/drake-main.png);
   background-repeat: no-repeat;
-  background-position: bottom right 13.5%;
+  background-position: bottom right 225px;
+  background-size: 275px;
+
   
-  min-height: 85vh;
+  min-height: 90vh;
   max-height: 100vh;
   
+}
+
+@media (min-height: 1050px){
+  .main-wrapper{
+    background-image: url(img/Drake-main-lrg.png);
+    background-size: 33.5%;
+    background-position: bottom right 8.5%;
+
+  }
 }
 
 .main-intro{  
@@ -217,7 +228,7 @@ button{
   background-color: #00DD99;
   padding: 100px 0px;
   
-  transform: skewY(-3deg) translateY(1.15%);
+  transform: skewY(-3deg);
 }
 
 .about-cnt{
@@ -239,11 +250,19 @@ button{
   max-width: 675px;
   text-align: center;
   color: white;
-  font-size: 16px;
+  font-size: 16.5px;
   font-weight: 500;
   
   padding: 0 30px;
 }
+
+@media (min-height: 1050px){
+  .about-cnt p{
+    max-width: 745px;
+    font-size: 18px;
+  }
+}
+
 
 .title-left{
   top:105px;
@@ -263,10 +282,11 @@ button{
   align-content: center;
   align-self: center;
   
+  padding: 80px 0px;  
 }
 
 .skills-cnt{
-  margin: 120px auto 0 auto;
+  margin: 60px auto 0px auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -348,6 +368,9 @@ button{
   align-items: flex-end;
   padding-right: 0;
   margin-left: 80px;
+  
+  transform: skewY(0deg);
+
 }
 
 .portfolio-item:nth-child(1){
@@ -364,10 +387,21 @@ button{
 }
 
 .portfolio-right{
-  background-color: #FAFAFA;
   margin: 0 auto;
   
   transform: skewY(-3deg);
+}
+
+.port-right-bg{
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  top: 0px;
+  
+  background-color: #FAFAFA;
 }
 
 .portfolio-left{
@@ -400,11 +434,16 @@ button{
 
 }
 
+.testimonials{
+  background-color: #00DD99;
+  transform: skewY(-3deg);
+  
+}
 
 .test-wrapper{
-  background-color: #00DD99;
   display: flex;
-  padding: 5.5% 0;
+  padding: 9% 0;
+  transform: skewY(3deg);
 }
 
 .test{
@@ -442,8 +481,57 @@ button{
 .test p{
   color: white;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 400;
 }
+
+.contact{
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 15.5% 0;
+}
+
+.contact-wrap p{
+  font-size: 18px;
+}
+
+footer{
+  background-color: rgba(216, 216, 216, 0.15);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 40px 15%;
+}
+
+footer p{
+  color: #9B9B9B;
+}
+
+.footer-nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-nav ul li{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
 
 
 
