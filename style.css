@@ -168,7 +168,7 @@ button{
 .portfolio-btn{
   margin-top: 35px;
   padding: 15px 35px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .main-wrapper{
@@ -180,7 +180,7 @@ button{
   
   background-image: url(img/drake-main.png);
   background-repeat: no-repeat;
-  background-position: bottom right 225px;
+  background-position: bottom right 150px;
   background-size: 275px;
 
   
@@ -189,22 +189,12 @@ button{
   
 }
 
-@media (min-height: 1050px){
-  .main-wrapper{
-    background-image: url(img/Drake-main-lrg.png);
-    background-size: 33.5%;
-    background-position: bottom right 8.5%;
-
-  }
-}
-
 .main-intro{  
  display: flex;
  justify-content: center;
  align-items: center;
  margin-left: 15%;
 }
-
 
 .main-txt{
   max-width: 535px;
@@ -215,7 +205,6 @@ button{
 .main-txt p{
   max-width:365px;  
 }
-
 
 .intro-txt{
   color: #9B9B9B;
@@ -335,14 +324,8 @@ button{
   background-image: url(img/ux.png);
 }
 
-.portfolio-width{
-  margin: 0px auto;
-  position: relative;
-  
-}
-
 .portfolio-item{
-  padding: 120px 0px;
+  padding: 125px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -370,15 +353,16 @@ button{
   margin-left: 80px;
   
   transform: skewY(0deg);
-
 }
 
-.portfolio-item:nth-child(1){
-  padding-top: 255px; 
+.dg-port{
+  padding-top: 185px;
+  
+  outline: 2px solid red;
 }
 
-.portfolio-item:nth-child(3){
-  padding-bottom: 60px;
+.bmo-port{
+  padding: 185px 0px;
 }
 
 .portfolio-item p{
@@ -416,22 +400,23 @@ button{
 
 
 .bmo-portfolio{
-  width: 35%;
-  height: 45%;
+  width: 32.5%;
+  height: 42.5%;
   transform: skewY(3deg);
 }
 
 .dg-portfolio{
-  width: 25%;
-  height: 25%;
+  width: 21.5%;
+  height: 21.5%;
+  
+  transform: skewY(3deg);
 }
 
 .atm-portfolio{
-  width: 25%;
-  height: 25%;
+  width: 21.5%;
+  height: 21.5%;
   
-  transform: skewY(3deg);
-
+  transform: skewY(0deg);
 }
 
 .testimonials{
@@ -513,7 +498,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   
-  padding: 40px 15%;
+  padding: 20px 15%;
 }
 
 footer p{
@@ -533,8 +518,131 @@ footer p{
 }
 
 
+/* Media Queries */
+
+/* Main Page Media Queries */
+
+@media (min-height: 1050px){
+  .main-wrapper{
+    background-image: url(img/Drake-main-lrg.png);
+    background-size: 33.5%;
+    background-position: bottom right 8.5%;
+
+  }
+}
+
+@media (max-width:1085px){
+  .main-wrapper{
+    background-position: bottom right 100px;
+  }
+  
+  .main-intro{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width:940px){
+  .main-wrapper{
+    background-position: bottom right 30px;
+    background-size: 255px;
+  }
+  
+  .main-intro{
+    margin-left: 7.5%;
+  }
+}
+
+@media (max-width:805px){
+  .main-wrapper{
+    background-image: none;
+  }
+  
+  .main-intro{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .main-txt p{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/* End of Main Page Media Queries */
 
 
+
+/* Skills Section Media Queries */
+
+@media (max-width:780px){
+  .skills-wrapper{
+    padding-bottom: 30px;
+  }
+  
+  .skills-cnt{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .skills-cnt li{
+    margin-bottom: 60px;
+    padding-left: 0px;
+    padding-top: 60px;
+  }
+  
+  .skills-img{
+    background-position: top center;
+  }
+}
+
+/* End Skills Section Media Queries */
+
+
+
+/* Portfolio Section Media Queries */
+
+
+@media(max-width:780px){
+  .portfolio-item{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+  .port-cnt-wrap{
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+    max-width: 450px;
+  }
+  
+  .dg-port{
+    padding-top: 235px;
+  }
+  
+  .bmo-port{
+    padding: 145px 0px;
+  }
+  
+  .portfolio-btn{
+    margin-top: 20px;
+  }
+  
+  .dg-portfolio{
+    height: 27.5%;
+    width: 27.5%;
+  } 
+  
+  .atm-portfolio{
+    height: 27.5%;
+    width: 27.5%;
+    
+  }
+  
+  .bmo-portfolio{
+    height: 30%;
+    width: 40%;
+  }
+}
 
 
 
