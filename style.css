@@ -47,6 +47,7 @@ a{
   text-decoration: none;
 }
 
+
 p{
   font-size: 16px;
   font-weight: 400;
@@ -112,7 +113,6 @@ button{
   top: 60px;
 }
 
-
 .main{
   background-color: white;
 }
@@ -123,6 +123,8 @@ button{
   float: right;
   right: 6.5vw;
   top:55px;
+  
+  overflow: hidden;
 }
 
 .main-nav ul{
@@ -138,15 +140,62 @@ button{
   display: inline-block;
 }
 
+.main-nav ul li a{  
+  transition: color 200ms ease-in-out;
+}
+
+.main-nav ul li a:hover{
+  color: #00DD99;
+  
+  transition: color 200ms ease-in-out;
+}
+
 .btn{
   color: #00DD99;
   padding: 10px 20px;
   border-radius: 100px;
   font-size: 14px;
+  
+  transform: scale(1);
+  transition: transform 350ms ease-in-out;
+}
+
+.btn:hover{
+  transform: scale(1.08);
+  transition: transform 350ms ease-in-out;
 }
 
 .contact-btn{
   border: 2px solid #00DD99;
+  position: relative;  
+}
+
+.contact-btn:hover{
+  color: white;
+  transition: color 150ms ease-in;
+}
+
+.contact-btn:hover .contact-bg{
+  top:-14px;
+  transition: top 150ms ease-in-out;
+}
+
+
+.contact-bg{
+  background-color: #00DD99;
+  height: 100%;
+  width: 100%;
+  
+  position: absolute;
+  right: -40px;
+  top: 35px;
+  
+  border-radius: 100px;
+  
+  z-index: -999;
+  
+  transition: top 150ms ease-in-out;
+
 }
 
 .resume-btn{
@@ -160,15 +209,71 @@ button{
   cursor: pointer;
 }
 
-.contact-btn:hover, .portfolio-btn{
+.portfolio-btn, .message-btn{
+  margin-top: 35px;
+  padding: 15px 35px;
+  font-size: 14px;
+  position: relative;
+  background-color: transparent;
+  
   background-color: #00DD99;
   color: white;
 }
 
-.portfolio-btn{
-  margin-top: 35px;
-  padding: 15px 35px;
-  font-size: 14px;
+.message-btn{
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+
+.message-btn-bg{
+  height: 100%;
+  width: 100%;
+  background-color: #00DD99;
+  border-radius: 100px;
+  
+  position: absolute;
+  left: -40px;
+  top: -13.5px;
+  
+  z-index: -999;
+  
+  transition: all 125ms ease-in;
+}
+
+.message-btn span{
+  position: relative;
+  
+  transition: all 200ms ease-out;
+}
+
+
+.message-btn:hover span{
+  left:200px;
+  
+  transition: all 200ms ease-out;
+}
+
+.message-btn:hover .message-icon{
+  right:63.5px;
+  top:16.5px;
+  
+  transition: all 200ms ease-in-out;
+}
+
+.message-btn:hover .message-btn-bg{
+  height: 65px;
+  width: 65px;
+  left:20px;
+  
+  transition: all 125ms ease-in;
+}
+
+.message-icon{
+  position: absolute;
+  right: 200px;
+  top: 5px;
+    
+  height: 70%;
 }
 
 .main-wrapper{
@@ -202,18 +307,16 @@ button{
 }
 
 
-.main-txt p{
-  max-width:365px;  
-}
-
 .intro-txt{
   color: #9B9B9B;
   line-height:1.85;
-  max-width: 475px;
+  max-width: 405px;
+  font-weight: 300;
+  font-size: 17px;
 }
 
 
-.about{
+#about{
   background-color: #00DD99;
   padding: 100px 0px;
   
@@ -357,8 +460,6 @@ button{
 
 .dg-port{
   padding-top: 185px;
-  
-  outline: 2px solid red;
 }
 
 .bmo-port{
@@ -539,6 +640,10 @@ footer p{
   .main-intro{
     margin-left: 10%;
   }
+  
+  .logo{
+    left: 10%;
+  }
 }
 
 @media (max-width:940px){
@@ -550,9 +655,13 @@ footer p{
   .main-intro{
     margin-left: 7.5%;
   }
+  
+  .logo{
+    left: 7.5%;
+  }
 }
 
-@media (max-width:805px){
+@media (max-width:805px){  
   .main-wrapper{
     background-image: none;
   }
@@ -565,6 +674,16 @@ footer p{
   .main-txt p{
     text-align: center;
     margin: 0 auto;
+  }
+}
+
+@media (max-width:465px){
+  .main-txt{
+    padding: 0px 25px;
+  }
+  
+  .main-txt h1{
+    line-height: 1.05;
   }
 }
 
@@ -644,9 +763,32 @@ footer p{
   }
 }
 
+@media(max-width:465px){
+  .port-cnt-wrap{
+    padding: 0px 25px;
+  }
+}
+
+/* End Portfolio Section Media Queries */
 
 
 
+/* Footer Section Media Queries */
 
+@media (max-width:950px){
+  footer{
+    flex-direction: column-reverse;
+  }
+  
+  footer nav ul{
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  footer p{
+    font-size: 14px;
+    text-align: center;
+  }
+}
 
 
