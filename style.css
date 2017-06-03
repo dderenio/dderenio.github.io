@@ -125,6 +125,8 @@ button{
   top:55px;
   
   overflow: hidden;
+  
+  z-index: 999;
 }
 
 .main-nav ul{
@@ -162,12 +164,16 @@ button{
 
 .btn:hover{
   transform: scale(1.08);
-  transition: transform 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+  cursor: pointer;
 }
 
 .contact-btn{
   border: 2px solid #00DD99;
-  position: relative;  
+  position: relative; 
+  z-index: 999;
+  
+  overflow: hidden;
 }
 
 .contact-btn:hover{
@@ -177,7 +183,7 @@ button{
 
 .contact-btn:hover .contact-bg{
   top:-14px;
-  transition: top 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 
@@ -194,8 +200,7 @@ button{
   
   z-index: -999;
   
-  transition: top 150ms ease-in-out;
-
+  transition: all 100ms ease-in-out;
 }
 
 .resume-btn{
@@ -205,10 +210,6 @@ button{
   margin: 30px 0; 
 }
 
-.resume-btn:hover{
-  cursor: pointer;
-}
-
 .portfolio-btn, .message-btn{
   margin-top: 35px;
   padding: 15px 35px;
@@ -216,9 +217,12 @@ button{
   position: relative;
   background-color: transparent;
   
-  background-color: #00DD99;
   color: white;
+  
+  background-color: #00DD99;
 }
+
+
 
 .message-btn{
   background-color: transparent;
