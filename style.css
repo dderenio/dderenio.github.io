@@ -146,7 +146,7 @@ button{
   transition: color 200ms ease-in-out;
 }
 
-.main-nav ul li a:hover{
+.main-nav ul li a:hover, .footer-nav ul li a:hover{
   color: #00DD99;
   
   transition: color 200ms ease-in-out;
