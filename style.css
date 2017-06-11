@@ -70,6 +70,7 @@ h2{
 
 .h2-alt{
   color: white;
+  text-align: center;
 }
 
 h3{
@@ -80,7 +81,7 @@ h3{
 
 h4{
   font-size: 18px;
-  margin: 15px 0px 5px 0px;
+  margin: 15px 0px 0px 0px;
   font-weight: 600;
 }
 
@@ -115,6 +116,8 @@ button a{
   left: 15%;
   top: 60px;
 }
+
+/************ Home Page CSS ************/
 
 .main{
   background-color: white;
@@ -632,6 +635,369 @@ footer p{
 .footer-nav ul li a{
   color: #4A4A4A;
 }
+
+/************ End Home Page CSS ************/
+
+
+/************ Dolce & Gabbana Case Study CSS ************/
+
+
+.dolce-main{
+  height: 100%;
+  background-image: url('img/dg-portfolio.png');  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dolce-main-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  position: relative;
+}
+
+.dolce-case-title{
+  color: white;
+}
+
+.case-facts{
+  padding: 0;
+  color: white;
+  position: absolute;
+  bottom: 8.5%;
+}
+
+
+.case-facts li{
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.case-facts-gold{
+  padding: 0px 5px;
+  font-weight: 800;
+  color: #948348;
+}
+
+.project-over{
+  background-color: #948348;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.project-over-title{
+  font-size: 40px;
+}
+
+.project-over-wrap{
+  max-width: 650px;
+  text-align: center;
+}
+
+.project-over p{
+  color: white; 
+  margin-top: 25px;
+}
+
+.analysis-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dolce-section-title{
+  color: #4A4A4A;
+  font-size: 32px;  
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.dolce-form{
+  width: 47.5%;
+  margin: 20px auto;
+}
+
+.port-width-wrap{
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.analysis-cnt-txt{
+  margin-bottom: 40px;
+}
+
+.dg-analysis-title{
+  color: black;
+  font-weight: 600;
+}
+
+.persona{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.persona-img{
+  width: 30%;
+}
+
+.design-title{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.design-goals ul{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  margin-top: 40px;
+  padding: 0;
+}
+
+.design-goals ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 15px 0px;
+}
+
+.design-goal-number p{
+  margin: 10px auto;
+  max-width: 45%; 
+}
+
+.design-goal-number li span{
+  font-weight: 700;
+  font-size: 22px;
+  color: #948348;
+}
+
+.journey-title{
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.customer-journey{
+  background-color: #FAFAFA;
+  
+  padding: 100px 0px;
+}
+
+.journey-cnt{
+  text-align: center;
+}
+
+.journey-img{
+  margin: 40px 0px 0px 0px;
+  width: 75%;
+}
+
+.dg-iphone-wireframes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  margin-top: 100px;
+  padding: 0;
+}
+
+.dg-iphone-wireframes li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content:center;
+  text-align: center;  
+  
+  width:33.33%;
+  margin: 15px 0px;
+}
+
+.dg-iphone-wireframes li h5{
+  margin-top: 25px;
+}
+
+.dg-iphone-wire{
+  width:45%;
+  margin: 0 auto;
+}
+
+.final-design-bg{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/dg-final.png);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typography{
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.typography-1{
+  font-family: Futura;
+  padding-bottom:20px;
+}
+
+.typography-2{
+  font-family: Avenir;
+}
+
+.color{
+  height: 100px;
+  width:100px;
+  
+  border-radius: 50%;
+}
+
+.palette{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+  max-width: 850px;
+}
+
+.palette span{
+  display: inline-block;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.palette-1{
+  background-color: #9B9B9B;
+}
+
+.palette-2{
+  background-color: #8E8E93;
+}
+
+.palette-3{
+  background-color: #4A4A4A;
+}
+
+.palette-4{
+  background-color: #948348;
+}
+
+.final-design-mockup{
+  margin: 40px 0px;
+}
+
+.iphone-mock{
+  max-height: 550px;
+}
+
+.final-design-mockup{
+  margin-top: 60px;
+}
+
+.final-mockups{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+  margin: 80px 0px;
+  
+}
+
+.final-design-txt{
+  background-image: url(img/dg-port-bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+  
+  max-width: 385px;
+  
+  display: inline-block;
+  
+}
+
+.final-design-txt h4{
+  margin-top: -10px;
+}
+
+.final-right{
+  position: relative;
+  top:-155px;
+  padding-left: 130px;
+}
+
+.final-left{
+  background-image: url(img/dg-port-bg-2.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  
+  max-width: 365px;
+  
+  display: inline-block;
+  
+  position: relative;
+  top:-155px;
+  padding-right: 80px;
+}
+
+.dg-footer{
+  background-color: #948348;
+}
+
+.dg-footer p{
+  color: white;
+}
+
+.footer-nav-dg ul li a{
+  color: white;
+}
+
+.footer-nav-dg ul li a:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************ End Dolce & Gabbana Case Study CSS ************/
+
 
 
 /* Media Queries */
