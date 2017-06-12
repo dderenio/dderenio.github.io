@@ -642,15 +642,18 @@ footer p{
 /************ Dolce & Gabbana Case Study CSS ************/
 
 
-.dolce-main{
+.port-main{
   height: 100%;
-  background-image: url('img/dg-portfolio.png');  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.dolce-main-wrap{
+.main-dg{
+  background-image: url('img/dg-portfolio.png');  
+}
+
+.port-main-wrap{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -659,7 +662,7 @@ footer p{
   position: relative;
 }
 
-.dolce-case-title{
+.port-case-title{
   color: white;
 }
 
@@ -683,10 +686,19 @@ footer p{
   color: #948348;
 }
 
+.case-facts-orange{
+  padding: 0px 5px;
+  font-weight: 800;
+  color: #F4801D;
+}
+
 .project-over{
-  background-color: #948348;
   text-align: center;
   padding: 100px 0;
+}
+
+.dg-over{
+  background-color: #948348;
 }
 
 .project-over-title{
@@ -709,7 +721,7 @@ footer p{
   justify-content: center;
 }
 
-.dolce-section-title{
+.port-section-title{
   color: #4A4A4A;
   font-size: 32px;  
   margin-top: 100px;
@@ -755,15 +767,17 @@ footer p{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-  margin-top: 40px;
-  padding: 0;
 }
 
 .design-goals ul li{
-  list-style: none;
   display: inline-block;
   margin: 15px 0px;
+}
+
+.design-goal-number{
+  list-style: none;
+  margin: 40px 0px;
+  padding: 0;
 }
 
 .design-goal-number p{
@@ -774,6 +788,9 @@ footer p{
 .design-goal-number li span{
   font-weight: 700;
   font-size: 22px;
+}
+
+.dg-design-goal{
   color: #948348;
 }
 
@@ -963,11 +980,58 @@ footer p{
   color: white;
 }
 
+/* ATM Case Study */
 
+.main-atm{
+  background-image: url(img/atm-portfolio.png);
+}
 
+.atm-over{
+  background-color: #F4801D;
+}
 
+.atm-pain-points{
+  margin: 40px 0px;
+}
 
+.card-sorting{
+  margin-top: 40px;
+}
 
+.card-sorting-img{
+  margin: 20px auto;
+  max-width: 650px;
+  width: 100%;
+}
+
+.card-sorting p{
+  margin-bottom: 30px;
+}
+
+.atm-kiosk-nav{
+  text-align: center;
+}
+
+.atm-kiosk-nav{
+  color: #F4801D;
+}
+
+.kiosk-nav ul{
+  list-style: none;
+}
+
+.testing-cnt p{
+  margin: 40px 0px;
+}
+
+.final-atm-kiosk-screen{
+  margin: 30px 0px;
+}
+
+.final-atm-kiosk-screen h5{
+  margin-bottom: 15px;
+  font-weight: 700;
+}
 
 
 
