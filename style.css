@@ -520,7 +520,7 @@ button a{
 }
 
 .dg-portfolio{
-  max-height: 460px;
+  width: 22.5%;
   transform: skewY(3deg);
 }
 
