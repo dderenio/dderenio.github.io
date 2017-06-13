@@ -169,14 +169,12 @@ button a{
   transition: transform 350ms ease-in-out;
 }
 
-/*
+
 .btn:hover{
   transform: scale(1.08);
   transition: all 350ms ease-in-out;
   cursor: pointer;
 }
-
-*/
 
 .contact-btn{
   border: 2px solid #00DD99;
@@ -442,11 +440,12 @@ button a{
 }
 
 .portfolio-item{
-  padding: 125px 0px;
+  padding: 120px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center; 
+  overflow: hidden;
 }
 
 .port-cnt-wrap{
@@ -521,16 +520,12 @@ button a{
 }
 
 .dg-portfolio{
-  width: 21.5%;
-  height: 21.5%;
-  
+  width: 22.5%;
   transform: skewY(3deg);
 }
 
 .atm-portfolio{
-  width: 21.5%;
-  height: 21.5%;
-  
+  width: 22.5%;
   transform: skewY(0deg);
 }
 
