@@ -719,9 +719,11 @@ footer p{
 .port-section-title{
   color: #4A4A4A;
   font-size: 32px;  
-  margin-top: 100px;
   text-align: center;
+}
 
+.port-analysis{
+  margin-top: 100px;
 }
 
 .dolce-form{
@@ -732,10 +734,6 @@ footer p{
 .port-width-wrap{
   max-width: 650px;
   margin: 0 auto;
-}
-
-.analysis-cnt-txt{
-  margin-bottom: 40px;
 }
 
 .dg-analysis-title{
@@ -787,6 +785,10 @@ footer p{
 
 .dg-design-goal{
   color: #948348;
+}
+
+.atm-design-goal{
+  color: #F4801D;
 }
 
 .journey-title{
@@ -864,6 +866,10 @@ footer p{
   font-family: Avenir;
 }
 
+.typography-3{
+  font-family: "Raleway";
+}
+
 .color{
   height: 100px;
   width:100px;
@@ -901,6 +907,18 @@ footer p{
   background-color: #948348;
 }
 
+.palette-5{
+  background-color: #F5811F;
+}
+
+.palette-6{
+  background-color: #E9E9E9;
+}
+
+.palette-7{
+  background-color: #151515;
+}
+
 .final-design-mockup{
   margin: 40px 0px;
 }
@@ -923,7 +941,6 @@ footer p{
 }
 
 .final-design-txt{
-  background-image: url(img/dg-port-bg.png);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: contain;
@@ -931,7 +948,14 @@ footer p{
   max-width: 385px;
   
   display: inline-block;
-  
+}
+
+.final-design-dg{
+  background-image: url(img/dg-port-bg.png);
+}
+
+.final-design-atm{
+  background-image: url(img/atm-bg-right.png);
 }
 
 .final-design-txt h4{
@@ -945,7 +969,6 @@ footer p{
 }
 
 .final-left{
-  background-image: url(img/dg-port-bg-2.png);
   background-repeat: no-repeat;
   background-position: right top;
   background-size: contain;
@@ -959,19 +982,31 @@ footer p{
   padding-right: 80px;
 }
 
+.final-design-dg-left{
+  background-image: url(img/dg-port-bg-2.png);
+}
+
+.final-design-atm-left{
+  background-image: url(img/atm-bg-left.png);
+}
+
 .dg-footer{
   background-color: #948348;
 }
 
-.dg-footer p{
+.atm-footer{
+  background-color: #F5811F;
+}
+
+footer p{
   color: white;
 }
 
-.footer-nav-dg ul li a{
+.footer-nav ul li a{
   color: white;
 }
 
-.footer-nav-dg ul li a:hover{
+.footer-nav ul li a:hover{
   color: white;
 }
 
@@ -985,9 +1020,6 @@ footer p{
   background-color: #F4801D;
 }
 
-.atm-pain-points{
-  margin: 40px 0px;
-}
 
 .card-sorting{
   margin-top: 40px;
@@ -1015,12 +1047,16 @@ footer p{
   list-style: none;
 }
 
-.testing-cnt p{
+.testing-cnt{
+  padding-top: 20px;
+}
+
+.testing-overview-cnt{
   margin: 40px 0px;
 }
 
 .final-atm-kiosk-screen{
-  margin: 30px 0px;
+  margin: 45px 0px;
 }
 
 .final-atm-kiosk-screen h5{
@@ -1028,8 +1064,56 @@ footer p{
   font-weight: 700;
 }
 
+.atm-kiosk-home{
+  width: 100%;
+}
 
+.web-app-redesign{
+  background-color: #FAFAFA;
+}
 
+.redesign-cnt{
+  padding-top: 60px;
+}
+
+.webapp-analysis{
+  margin-top: 40px;
+}
+
+.atm-analysis-list{
+  list-style: none;
+  padding: 15px 0px;
+}
+
+.atm-analysis-list li{
+  margin: 15px 0px;
+  font-weight: 400;
+  color: #787F8C;
+}
+
+.atm-wireframes{
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.design-iteration-cycles{
+  margin-bottom: 50px;
+}
+
+.atm-final-redesign{
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/atm-ui-final.png);
+  background-position: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-redesign-cnt{
+  margin-top: 80px;
+}
 
 
 
