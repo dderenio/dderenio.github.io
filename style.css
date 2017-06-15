@@ -433,7 +433,7 @@ button a {
   background-color: #FAFAFA;
   height: 100%;
   width: 100vw;
-  transform: skewY(-5deg);
+  transform: skewY(-3deg);
 }
 
 .testimonial-bg {
@@ -442,7 +442,7 @@ button a {
   position: absolute;
   height: 100%;
   width: 100vw;
-  transform: skewY(-5deg);
+  transform: skewY(-3deg);
 }
 
 .portfolio-left {
