@@ -397,14 +397,12 @@ button a {
   align-items: flex-start;
   align-self: center;
   margin-right: 80px;
-  /* transform: skewY(3deg); */
 }
 
 .port-cnt-wrap-left {
   align-items: flex-end;
   padding-right: 0;
   margin-left: 80px;
-  /* transform: skewY(0deg); */
 }
 
 .dg-port {
@@ -434,7 +432,6 @@ button a {
   height: 100%;
   width: 100vw;
   transform: skewY(-3deg);
-  overflow: hidden;
 }
 
 .testimonial-bg {
@@ -1171,7 +1168,7 @@ footer p {
   }
   .skills-cnt {
     text-align: center;
-    margin-top: 35px;
+    margin: 35px auto 60px auto;
     max-width: 275px;
   }
   .skills-cnt li {
