@@ -318,12 +318,10 @@ button a {
 }
 
 .title-left {
-  top: 105px;
   left: 8.5vw;
   position: relative;
   display: inline-block;
-  padding-top: 30px;
-  margin: 0;
+  padding-top: 130px;
   z-index: 999;
 }
 
@@ -332,7 +330,7 @@ button a {
 }
 
 .skills-cnt {
-  margin: 150px auto 100px auto;
+  margin: 10px auto 100px auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -409,7 +407,9 @@ button a {
 }
 
 .dg-port {
-  padding: 100px 0px;
+  padding-bottom: 100px;
+  position: relative;
+  top: -100px;
 }
 
 .bmo-port {
