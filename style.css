@@ -1211,15 +1211,13 @@ footer p {
     margin-top: 20px;
   }
   .dg-portfolio {
-    width: 250px;
+    width: 150px;
   }
   .atm-portfolio {
-    height: 27.5%;
-    width: 27.5%;
+    width: 150px;
   }
   .bmo-portfolio {
-    height: 30%;
-    width: 40%;
+    width: 200px;
   }
 }
 
