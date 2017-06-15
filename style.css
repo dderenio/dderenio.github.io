@@ -1206,6 +1206,8 @@ footer p {
   }
   .bmo-port {
     padding: 105px 0px;
+    height: 100%;
+    outline: 2px solid orange;
   }
   .portfolio-btn {
     margin-top: 20px;
@@ -1216,9 +1218,11 @@ footer p {
   }
   .atm-portfolio {
     width: 150px;
+    height: auto;
   }
   .bmo-portfolio {
     width: 200px;
+    height: auto;
   }
 }
 
