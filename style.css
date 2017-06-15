@@ -387,7 +387,6 @@ button a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   position: relative;
 }
 
@@ -434,6 +433,7 @@ button a {
   height: 100%;
   width: 100vw;
   transform: skewY(-3deg);
+  overflow: hidden;
 }
 
 .testimonial-bg {
@@ -461,11 +461,24 @@ button a {
 }
 
 .dg-portfolio {
-  width: 22.5%;
+  transform: translateY(20px);
+  transition: transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.dg-portfolio:hover {
+  transform: translateY(10px);
+  transition: transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .atm-portfolio {
   width: 22.5%;
+  transform: translateY(20px);
+  transition: transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.atm-portfolio:hover {
+  transform: translateY(10px);
+  transition: transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .test-wrapper {
@@ -575,6 +588,22 @@ footer p {
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.back-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  top: 50px;
+  left: 5.5%;
+}
+
+.back-btn {
+  left: 100px;
+  width: 30px;
+  height: 30px;
 }
 
 .port-case-title {
@@ -854,7 +883,7 @@ footer p {
 .final-mockups {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   margin: 80px 0px;
 }
 
@@ -862,7 +891,7 @@ footer p {
   background-repeat: no-repeat;
   background-position: left top;
   background-size: contain;
-  max-width: 385px;
+  max-width: 450px;
   display: inline-block;
 }
 
@@ -880,7 +909,6 @@ footer p {
 
 .final-right {
   position: relative;
-  top: -155px;
   padding-left: 130px;
   background-size: 110px;
   min-height: 180px;
@@ -890,10 +918,9 @@ footer p {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 110px;
-  max-width: 365px;
+  max-width: 450px;
   display: inline-block;
   position: relative;
-  top: -155px;
   padding-right: 80px;
   min-height: 180px;
 }
@@ -1161,11 +1188,10 @@ footer p {
   .portfolio-btn {
     margin-top: 20px;
   }
-  /* .dg-portfolio {
+  .dg-portfolio {
     height: 27.5%;
     width: 27.5%;
   }
-  */
   .atm-portfolio {
     height: 27.5%;
     width: 27.5%;

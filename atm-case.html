@@ -1,377 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>ATM Case Study</title>
-  
+
   <link type="text/css" rel="stylesheet" href="style.css">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
+
 <body>
- 
- <div class="wrapper">
-  
-  <!-- ATM Main Page !-->
-   
-   <section class="port-main main-atm">
-     
-     <div class="section-wrapper port-main-wrap">
-       
-       <h1 class="port-case-title">SPD: ATM Milan</h1>
-       
-       <ul class="case-facts">
-         <li><span class="case-facts-orange">Role:</span>UX Research & Design</li>
-         <li><span class="case-facts-orange">Context:</span> Master's Project</li>
-         <li><span class="case-facts-orange">Date:</span>February 2017</li>
-       </ul>
-       
-      
-     </div>
-     
-   </section>
-   
- <!-- End ATM Main Page !-->
-  
-  
-  <!-- ATM Project Overview Page !-->
-   
-   <section class="project-over atm-over">
-     
-     <div class="section-wrapper project-over-wrap">
-       
-       <h2 class="h2-alt project-over-title">Project Overview</h2>
-       
-       <p>The objective was to review the ATM Milan Public Transportation Kiosk User Interface in order to make it more usable utilizing the best UX practices. Using the research gained from the Kiosk re-design, the ATM Web App must be analysed and re-designed. </p>
-       
-     </div>
-     
-   </section>
-   
- <!-- End ATM Project Overview Page !-->
- 
- 
- <!-- ATM Analysis & Design Page !-->
-  
-  <section class="analysis">
-    
-    <div class="section-wrapper analysis-wrap">
-    
-    <div class="port-width-wrap">
-     
-       <h2 class="h2-alt port-section-title port-analysis">Research & Analysis</h2>
 
-       <p>We began our research process by compiling a list of the main features users would attempt to complete at the ATM Kiosks. From here, we went to the metro station and tried to complete these actions first hand and discovered many pain points and user gaps that currently exist. Current pain points include:</p>
+  <div class="wrapper">
 
-       <ul class="atm-analysis-list">
+    <!-- ATM Main Page !-->
 
-         <li>No available directions (have to search by zone, not by location).</li>
+    <section class="port-main main-atm">
 
-         <li>Confusing terminology and language.</li>
-
-         <li>Overloaded of ticket options and information.</li>
-
-         <li>Lack of information when travelling with extra items.</li>
-
-
-      </ul>
-
-      <p>Overall, a general lack of user empathy is the root of many issues and generates a large gulf of execution for users. Users know what they want to do, but aren't sure how to communicate these actions to the system.</p>
-
-      <div class="card-sorting">
-
-       <h4>Card Sorting Prioritisation</h4>
-
-        <img class="card-sorting-img" src="img/atm-cardsort.png">
-
-        <p>Along with our observations, our group conducted open card sorting interviews to form the basis of our navigational structure. </p>
-
-        <p>Confusing terminology, excessive actions, along with an unclear structure all lead to an overly complicated process. The card sorting prioritisation exercise combined with our findings in perceived user gaps, clearly illustrated to our group a need for a more efficient, simple and learnable system. The navigational structure of our kiosk was simplified into 3 groups: </p>
-
-        <div class="atm-kiosk-nav">
-          <ul class="design-goal-number kiosk-nav">
-            <li><span>1</span><p>Purchase & Reloading</p></li>
-            <li><span>2</span><p>General Information</p></li>
-            <li><span>3</span><p>Directions</p></li>
-         </ul> 
-        </div>
-        
-        <p>The current ATM Kiosk UI is very confusing, and System 2 thinking is initiated almost immediately for first time users. By keeping the main screen as simple as possible along with everyday language, we sought to design a system that was extremely usable and created an automatic and effortless experience. Ultimately, this research lead our group to focus mainly on Efficiency & Learnability.</p>
-      
+      <div class="back-nav">
+        <a href="../#portfolio">
+          <img class="back-btn" src="img/back.png">
+        </a>
+        <!-- <p>Back To Portfolio</p> -->
       </div>
-     
-    </div>
-      
-    </div>
-    
-  </section>
-  
-  <!-- End ATM Analysis & Design Page !-->
-  
 
-  
-  <!-- ATM User Testing & Insights Page !-->
-  
-  <section class="atm-user-testing">
-   
-   <div class="section-wrapper">
-    
-    <div class="port-width-wrap testing-cnt">
-      
-      <h2 class="port-section-title">User Testing Insights & Iterations</h2>
-      
-      <div class="testing-overview-cnt">
-      
-        <p>After building our initial prototype, we sought feedback from users with other mental models, and generated explorative and direct user tasks to further improve our process.</p>
+      <div class="section-wrapper port-main-wrap">
 
-        <p>Elements such as Purchasing Tickets, Travelling with additional Items, and Directions were directly tested, while other aspects of the process such as, payment options, basic navigation, as well as language options were indirectly tested to ensure our mental models didn't overlook simple user actions.</p>
+        <h1 class="port-case-title">SPD: ATM Milan</h1>
 
-        <p>From our user testing interviews, we received valuable feedback which ultimately allowed us to re-evaluate our process and largely improve our existing flow.</p>
-      
+        <ul class="case-facts">
+          <li><span class="case-facts-orange">Role:</span>UX Research & Design</li>
+          <li><span class="case-facts-orange">Context:</span> Master's Project</li>
+          <li><span class="case-facts-orange">Date:</span>February 2017</li>
+        </ul>
+
+
       </div>
-      
-      <div class="final-atm-kiosk">
-        
-        <h4>Final ATM Kiosk Design</h4>
-        
-        <div class="final-atm-kiosk-screen">
-          <h5>Home Screen</h5>
-          <img class="atm-kiosk-home" src="img/home-kiosk.png">
-          <p>Our homepage was intentionally designed to be simplistic in order to increase efficiency and learnability. With 3 main CTA’s, users are able to quickly scan the screen and complete their desired action as quick as possible.</p>
-        </div>  
-         
-        <div class="final-atm-kiosk-screen">
-          <h5>Purchasing Tickets</h5>
-          <img class="atm-kiosk-home" src="img/tickets-kiosk.png">
-          <p>Tickets are no longer categorised by zone, rather by function. Users are able to purchase Single, Daily, 10 Trip & Monthly tickets from the terminal. This was intentionally done to reduce the amount of information users are required to know in order to effectively use our kiosk and to reduce ticket purchasing errors.</p>
-        </div>    
-         
-        <div class="final-atm-kiosk-screen">
-          <h5>Directions</h5>
-          <img class="atm-kiosk-home" src="img/directions-kiosk.png">
-          <p>While our users didn’t have an issue understanding the directions from our initial prototype, they experienced difficultly in quickly assessing the best possible route. This lead to an improved visual hierarchy for our directions page to ensure the best route was always highlighted and was the first choice.</p>
-        </div>    
-         
-        <div class="final-atm-kiosk-screen">
-          <h5>ATM Travel Card</h5>
-          <img class="atm-kiosk-home" src="img/card-kiosk.png">
-          <p>Unlike the current ATM Kiosk, there is a home button for all Card type transactions. Currently, users are expected just to insert their cards without any prompts or directions. Instead of keeping this approach, we included a button within the home screen to reduce confusion and to increase efficiency. From this section, users are able to quickly reload their ATM cards, and obtain information pertaining to different ATM Card types (Student, Senior or Regular Card)</p>
-        </div>       
-         
-        <div class="final-atm-kiosk-screen">
-          <h5>Transaction Summary & Ticket Purchase</h5>
-          <img class="atm-kiosk-home" src="img/purchase-kiosk.png">
-          <p>Throughout the ticket purchasing process, users are provided with constant feedback that illustrates each action to minimize the gulf of evaluation. Prior to finalising transactions, users are always provided a transaction summary screen to ensure all tickets are correct and accounted for. This was intentionally included so users aren't required to remember chunks of information that the system already knows </p>
-          
-          <p>Clearly marked "emergency exits" such as back, cancel and the home buttons are placed throughout the interface to encourage exploration while also giving the users the ability to undo unwanted actions.</p>
-          
-          <img class="atm-kiosk-home" src="img/summary-kiosk.png">
-          
-          <p>Upon the completion of a transaction, users are notified of the successful action and are reminded to remove their card and obtain their ticket.</p>
-        </div>
-        
-        
+
+    </section>
+
+    <!-- End ATM Main Page !-->
+
+
+    <!-- ATM Project Overview Page !-->
+
+    <section class="project-over atm-over">
+
+      <div class="section-wrapper project-over-wrap">
+
+        <h2 class="h2-alt project-over-title">Project Overview</h2>
+
+        <p>The objective was to review the ATM Milan Public Transportation Kiosk User Interface in order to make it more usable utilizing the best UX practices. Using the research gained from the Kiosk re-design, the ATM Web App must be analysed and re-designed. </p>
+
       </div>
-      
-      
-    </div>
-     
-   </div>
-    
-  </section>
 
-  <!-- End ATM User Testing & Insights Page !-->
-  
-  
-  <!-- ATM Application Re-Design Page !-->
-  
-  <section class="web-app-redesign">
-    <div class="section-wrapper">
-      <div class="port-width-wrap redesign-cnt">
-       
-       <h2 class="port-section-title">Web Application Re-Design</h2>
-       
-       <p>Taking the research and information that we gained from the ATM Kiosk redesign process, our team applied many of the same key findings towards the ATM web application to improve the overall look and feel using the best UX practices.</p>
-       
-       <div class="webapp-analysis">
-         <h4>Analysis & Research</h4>
-         
-         <div class="webapp-analysis-cnt">
-           <p>When conducting the Web Application analysis, our team discovered many of the same pain points that customers experienced within the ATM Kiosks. These user gaps included:</p>
-           
-           <ul class="atm-analysis-list">
-             <li>No main CTA to quickly purchase tickets</li>
-             <li>An overload of tasks and options</li>
-             <li>Confusing language and section titles</li>
-             <li>No clear hierarchy or grouping, everything looks like separate entities</li>
-             <li>Overly complicated and long payment process</li>
-           </ul>
-           
-           <div class="design-goals">
-             <p>Combined with the research gained in the ATM Kiosk redesign, our design goals of efficiency and learnability were re-applied and were the foundation of our redesign process.</p>
+    </section>
 
-             <p>We sought to simplify the entire process through:</p>
-           
-            <ul class="design-goal-number atm-design-goal">
-              <li><span>1</span><p>Improved Navigational Hierarchy</p></li>
-              <li><span>2</span><p>Simplification of Actionable Items</p></li>
-              <li><span>3</span><p>Addition of Main CTA’s</p></li>
-            </ul> 
+    <!-- End ATM Project Overview Page !-->
+
+
+    <!-- ATM Analysis & Design Page !-->
+
+    <section class="analysis">
+
+      <div class="section-wrapper analysis-wrap">
+
+        <div class="port-width-wrap">
+
+          <h2 class="h2-alt port-section-title port-analysis">Research & Analysis</h2>
+
+          <p>We began our research process by compiling a list of the main features users would attempt to complete at the ATM Kiosks. From here, we went to the metro station and tried to complete these actions first hand and discovered many pain points and user gaps that currently exist. Current pain points include:</p>
+
+          <ul class="atm-analysis-list">
+
+            <li>No available directions (have to search by zone, not by location).</li>
+
+            <li>Confusing terminology and language.</li>
+
+            <li>Overloaded of ticket options and information.</li>
+
+            <li>Lack of information when travelling with extra items.</li>
+
+
+          </ul>
+
+          <p>Overall, a general lack of user empathy is the root of many issues and generates a large gulf of execution for users. Users know what they want to do, but aren't sure how to communicate these actions to the system.</p>
+
+          <div class="card-sorting">
+
+            <h4>Card Sorting Prioritisation</h4>
+
+            <img class="card-sorting-img" src="img/atm-cardsort.png">
+
+            <p>Along with our observations, our group conducted open card sorting interviews to form the basis of our navigational structure. </p>
+
+            <p>Confusing terminology, excessive actions, along with an unclear structure all lead to an overly complicated process. The card sorting prioritisation exercise combined with our findings in perceived user gaps, clearly illustrated to our group a need for a more efficient, simple and learnable system. The navigational structure of our kiosk was simplified into 3 groups: </p>
+
+            <div class="atm-kiosk-nav">
+              <ul class="design-goal-number kiosk-nav">
+                <li><span>1</span>
+                  <p>Purchase & Reloading</p>
+                </li>
+                <li><span>2</span>
+                  <p>General Information</p>
+                </li>
+                <li><span>3</span>
+                  <p>Directions</p>
+                </li>
+              </ul>
+            </div>
+
+            <p>The current ATM Kiosk UI is very confusing, and System 2 thinking is initiated almost immediately for first time users. By keeping the main screen as simple as possible along with everyday language, we sought to design a system that was extremely usable and created an automatic and effortless experience. Ultimately, this research lead our group to focus mainly on Efficiency & Learnability.</p>
+
           </div>
-         </div>
-       </div>
-       
-       <div class="design-iteration-cycles">
-         <h2 class="port-section-title">Design Iteration Cycles</h2>
-         <img class="atm-wireframes" src="img/atm-wireframes.png">
-         <p>To improve our design and overall process for the web application, our group utilised rapid prototyping techniques along with expert review sessions to generate as much feedback as possible. In total, our team went through 3 design cycles to conceptualize wireframes, analyse and improve our design and journey flow, as well as conduct user testing interviews. </p>
-       </div>
-  
-        
-      </div>
-    </div>
-  </section>
-  
-  
-  <!-- End ATM Application Re-Design Page !-->
-  
-  
-  <!-- ATM Final Re-Design Page !-->
-  
-  <section class="port-final-redesign">
-   
-   <div class="atm-final-redesign">
-      <h1 class="port-case-title">Final Application Design</h1>
-   </div>
-       
-    <div class="section-wrapper">
-      <div class="port-width wrap final-redesign-cnt">
-      
-      <h2 class="port-section-title">Typography & Color Palette</h2>
-     
-      <div class="typography">
 
-        <div class="typography-3">
-          <h4>Raleway</h4>
-          <p style="font-weight:900;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-          <p style="font-weight:700;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-          <p style="font-weight:500;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-          <p style="font-weight:400;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-        </div> 
+        </div>
 
       </div>
-    
-      <div class="palette">
 
-         <span class="palette-color">  
+    </section>
+
+    <!-- End ATM Analysis & Design Page !-->
+
+
+
+    <!-- ATM User Testing & Insights Page !-->
+
+    <section class="atm-user-testing">
+
+      <div class="section-wrapper">
+
+        <div class="port-width-wrap testing-cnt">
+
+          <h2 class="port-section-title">User Testing Insights & Iterations</h2>
+
+          <div class="testing-overview-cnt">
+
+            <p>After building our initial prototype, we sought feedback from users with other mental models, and generated explorative and direct user tasks to further improve our process.</p>
+
+            <p>Elements such as Purchasing Tickets, Travelling with additional Items, and Directions were directly tested, while other aspects of the process such as, payment options, basic navigation, as well as language options were indirectly tested to ensure our mental models didn't overlook simple user actions.</p>
+
+            <p>From our user testing interviews, we received valuable feedback which ultimately allowed us to re-evaluate our process and largely improve our existing flow.</p>
+
+          </div>
+
+          <div class="final-atm-kiosk">
+
+            <h4>Final ATM Kiosk Design</h4>
+
+            <div class="final-atm-kiosk-screen">
+              <h5>Home Screen</h5>
+              <img class="atm-kiosk-home" src="img/home-kiosk.png">
+              <p>Our homepage was intentionally designed to be simplistic in order to increase efficiency and learnability. With 3 main CTA’s, users are able to quickly scan the screen and complete their desired action as quick as possible.</p>
+            </div>
+
+            <div class="final-atm-kiosk-screen">
+              <h5>Purchasing Tickets</h5>
+              <img class="atm-kiosk-home" src="img/tickets-kiosk.png">
+              <p>Tickets are no longer categorised by zone, rather by function. Users are able to purchase Single, Daily, 10 Trip & Monthly tickets from the terminal. This was intentionally done to reduce the amount of information users are required to know in order to effectively use our kiosk and to reduce ticket purchasing errors.</p>
+            </div>
+
+            <div class="final-atm-kiosk-screen">
+              <h5>Directions</h5>
+              <img class="atm-kiosk-home" src="img/directions-kiosk.png">
+              <p>While our users didn’t have an issue understanding the directions from our initial prototype, they experienced difficultly in quickly assessing the best possible route. This lead to an improved visual hierarchy for our directions page to ensure the best route was always highlighted and was the first choice.</p>
+            </div>
+
+            <div class="final-atm-kiosk-screen">
+              <h5>ATM Travel Card</h5>
+              <img class="atm-kiosk-home" src="img/card-kiosk.png">
+              <p>Unlike the current ATM Kiosk, there is a home button for all Card type transactions. Currently, users are expected just to insert their cards without any prompts or directions. Instead of keeping this approach, we included a button within the home screen to reduce confusion and to increase efficiency. From this section, users are able to quickly reload their ATM cards, and obtain information pertaining to different ATM Card types (Student, Senior or Regular Card)</p>
+            </div>
+
+            <div class="final-atm-kiosk-screen">
+              <h5>Transaction Summary & Ticket Purchase</h5>
+              <img class="atm-kiosk-home" src="img/purchase-kiosk.png">
+              <p>Throughout the ticket purchasing process, users are provided with constant feedback that illustrates each action to minimize the gulf of evaluation. Prior to finalising transactions, users are always provided a transaction summary screen to ensure all tickets are correct and accounted for. This was intentionally included so users aren't required to remember chunks of information that the system already knows </p>
+
+              <p>Clearly marked "emergency exits" such as back, cancel and the home buttons are placed throughout the interface to encourage exploration while also giving the users the ability to undo unwanted actions.</p>
+
+              <img class="atm-kiosk-home" src="img/summary-kiosk.png">
+
+              <p>Upon the completion of a transaction, users are notified of the successful action and are reminded to remove their card and obtain their ticket.</p>
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- End ATM User Testing & Insights Page !-->
+
+
+    <!-- ATM Application Re-Design Page !-->
+
+    <section class="web-app-redesign">
+      <div class="section-wrapper">
+        <div class="port-width-wrap redesign-cnt">
+
+          <h2 class="port-section-title">Web Application Re-Design</h2>
+
+          <p>Taking the research and information that we gained from the ATM Kiosk redesign process, our team applied many of the same key findings towards the ATM web application to improve the overall look and feel using the best UX practices.</p>
+
+          <div class="webapp-analysis">
+            <h4>Analysis & Research</h4>
+
+            <div class="webapp-analysis-cnt">
+              <p>When conducting the Web Application analysis, our team discovered many of the same pain points that customers experienced within the ATM Kiosks. These user gaps included:</p>
+
+              <ul class="atm-analysis-list">
+                <li>No main CTA to quickly purchase tickets</li>
+                <li>An overload of tasks and options</li>
+                <li>Confusing language and section titles</li>
+                <li>No clear hierarchy or grouping, everything looks like separate entities</li>
+                <li>Overly complicated and long payment process</li>
+              </ul>
+
+              <div class="design-goals">
+                <p>Combined with the research gained in the ATM Kiosk redesign, our design goals of efficiency and learnability were re-applied and were the foundation of our redesign process.</p>
+
+                <p>We sought to simplify the entire process through:</p>
+
+                <ul class="design-goal-number atm-design-goal">
+                  <li><span>1</span>
+                    <p>Improved Navigational Hierarchy</p>
+                  </li>
+                  <li><span>2</span>
+                    <p>Simplification of Actionable Items</p>
+                  </li>
+                  <li><span>3</span>
+                    <p>Addition of Main CTA’s</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="design-iteration-cycles">
+            <h2 class="port-section-title">Design Iteration Cycles</h2>
+            <img class="atm-wireframes" src="img/atm-wireframes.png">
+            <p>To improve our design and overall process for the web application, our group utilised rapid prototyping techniques along with expert review sessions to generate as much feedback as possible. In total, our team went through 3 design cycles to conceptualize wireframes, analyse and improve our design and journey flow, as well as conduct user testing interviews. </p>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- End ATM Application Re-Design Page !-->
+
+
+    <!-- ATM Final Re-Design Page !-->
+
+    <section class="port-final-redesign">
+
+      <div class="atm-final-redesign">
+        <h1 class="port-case-title">Final Application Design</h1>
+      </div>
+
+      <div class="section-wrapper">
+        <div class="port-width wrap final-redesign-cnt">
+
+          <h2 class="port-section-title">Typography & Color Palette</h2>
+
+          <div class="typography">
+
+            <div class="typography-3">
+              <h4>Raleway</h4>
+              <p style="font-weight:900;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+              <p style="font-weight:700;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+              <p style="font-weight:500;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+              <p style="font-weight:400;">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+            </div>
+
+          </div>
+
+          <div class="palette">
+
+            <span class="palette-color">  
           <figure class="color palette-5"></figure>
           <p>#F5811F</p>
          </span>
 
-         <span class="palette-color">  
+            <span class="palette-color">  
           <figure class="color palette-6"></figure>
           <p>#E9E9E9</p>
          </span>
 
-         <span class="palette-color">  
+            <span class="palette-color">  
           <figure class="color palette-7"></figure>
           <p>#151515</p>
          </span>
 
-      </div>
-      
-      <div class="final-design-mockup">
-       
-         <div class="final-mockups mockup-1">
-
-          <img class="iphone-mock" src="img/ATM-Home.png">
-
-          <div class="final-design-txt final-design-atm final-right">
-            <h4>Home Screen</h4>
-            <p>Composed of 3 simple CTA’s. This was intentionally done to apply a simplistic design in order to meet our goals of increasing efficiency and learnability.</p>
           </div>
 
-         </div> 
-         
-          <div class="final-mockups mockup-2">
+          <div class="final-design-mockup">
 
-            <div class="final-design-txt final-design-atm-left final-left">
-              <h4>Tickets</h4>
-              <p>Quickly purchase single, daily and 10 day passes. After selecting their desired ticket, users can then add additional items to their purchase if they need to do so.  Once the ticket purchase is complete, users can view and validate their ticket through the “My Tickets” feature. </p>
+            <div class="final-mockups mockup-1">
+
+              <img class="iphone-mock" src="img/ATM-Home.png">
+
+              <div class="final-design-txt final-design-atm final-right">
+                <h4>Home Screen</h4>
+                <p>Composed of 3 simple CTA’s. This was intentionally done to apply a simplistic design in order to meet our goals of increasing efficiency and learnability.</p>
+              </div>
+
             </div>
 
-          <img class="iphone-mock" src="img/ATM-Tickets.png">
+            <div class="final-mockups mockup-2">
 
-        </div>  
-        
-        <div class="final-mockups mockup-3">
+              <div class="final-design-txt final-design-atm-left final-left">
+                <h4>Tickets</h4>
+                <p>Quickly purchase single, daily and 10 day passes. After selecting their desired ticket, users can then add additional items to their purchase if they need to do so. Once the ticket purchase is complete, users can view and validate their ticket through the “My Tickets” feature. </p>
+              </div>
 
-          <img class="iphone-mock" src="img/ATM-Ticket.png">
+              <img class="iphone-mock" src="img/ATM-Tickets.png">
 
-          <div class="final-design-txt final-design-atm final-right">
-            <h4>ATM Ticket</h4>
-            <p>After successfully purchasing a ticket, users have the ability to valdate them for immediate use or save them for later. In order to validate the ticket, users are prompted to press and hold the QR code. Once this action is done, the code becomes visible, and users are presented with a status bar, showing how much time they have before their ticket expires. </p>
+            </div>
+
+            <div class="final-mockups mockup-3">
+
+              <img class="iphone-mock" src="img/ATM-Ticket.png">
+
+              <div class="final-design-txt final-design-atm final-right">
+                <h4>ATM Ticket</h4>
+                <p>After successfully purchasing a ticket, users have the ability to valdate them for immediate use or save them for later. In order to validate the ticket, users are prompted to press and hold the QR code. Once this action is done, the code becomes visible, and users are presented with a status bar, showing how much time they have before their ticket expires. </p>
+              </div>
+
+            </div>
+
+            <div class="final-mockups mockup-4">
+
+              <div class="final-design-txt final-design-atm-left final-left">
+                <h4>Directions</h4>
+                <p>Users select their desired destination, as well as their time of arrival or departure, and the system provides the best route using the ATM system. Individuals can then selecte the route of their choice and view important travel information such as trip duration, and required changes to assist in planning and route differentiation.</p>
+              </div>
+
+              <img class="iphone-mock" src="img/ATM-Directions.png">
+
+            </div>
+
+            <div class="final-mockups mockup-3">
+
+              <img class="iphone-mock" src="img/ATM-Mytickets.png">
+
+              <div class="final-design-txt final-design-atm final-right">
+                <h4>My Tickets</h4>
+                <p>Gives access to current and previous ticket purchases. Users are able to view previous purchases based on ticket type, directions, or time remaining before tickets expire. A simple color code was added to assist in the visual differentiation between various ticket states. Within this section, users are able to validate previously purchased tickets or quickly repeat previous purchases. </p>
+              </div>
+
+            </div>
+
           </div>
-
-        </div> 
-        
-        <div class="final-mockups mockup-4">
-
-            <div class="final-design-txt final-design-atm-left final-left">
-              <h4>Directions</h4>
-              <p>Users select their desired destination, as well as their time of arrival or departure, and the system provides the best route using the ATM system. Individuals can then selecte the route of their choice and view important travel information such as trip duration, and required changes to assist in planning and route differentiation.</p>
-            </div>
-
-          <img class="iphone-mock" src="img/ATM-Directions.png">
 
         </div>
-        
-        <div class="final-mockups mockup-3">
+      </div>
 
-          <img class="iphone-mock" src="img/ATM-Mytickets.png">
+    </section>
 
-          <div class="final-design-txt final-design-atm final-right">
-            <h4>My Tickets</h4>
-            <p>Gives access to current and previous ticket purchases. Users are able to view previous purchases based on ticket type, directions, or time remaining before tickets expire. A simple color code was added to assist in the visual differentiation between various ticket states. Within this section, users are able to validate previously purchased tickets or quickly repeat previous purchases. </p>
-          </div>
 
-        </div>   
-        
-    </div>  
-        
-    </div>
+    <!-- End ATM Final Re-Design Page !-->
+
+    <!-- ATM Footer !-->
+
+    <footer class="footer">
+
+      <p>Drake Dereniowski 2017 © All Rights Reserved</p>
+
+      <nav class="footer-nav footer-nav-dg">
+        <ul>
+          <li><a href="../#about">About</a></li>
+          <li><a href="../#portfolio">Portfolio</a></li>
+          <li><a href="../#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+
+
+    <!-- End ATM Footer !-->
+
+
+
+
+
   </div>
-    
-  </section>
 
-  
-  <!-- End ATM Final Re-Design Page !-->
-  
-  <!-- ATM Footer !-->
-
-   <footer class="footer atm-footer">
-
-       <p>Drake Dereniowski 2017 © All Rights Reserved</p>
-
-       <nav class="footer-nav footer-nav-dg">
-         <ul>
-           <li><a href="../#about">About</a></li>
-           <li><a href="../#portfolio">Portfolio</a></li>
-           <li><a href="../#contact">Contact</a></li>
-         </ul>
-       </nav> 
-
-     </footer>
-   
-   
-<!-- End ATM Footer !-->
-
-  
-  
-  
-
- </div>
-  
 </body>
+
 </html>
