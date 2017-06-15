@@ -674,7 +674,7 @@ footer p {
 }
 
 .dolce-form {
-  width: 47.5%;
+  width: 400px;
   margin: 20px auto;
 }
 
@@ -1260,5 +1260,81 @@ footer p {
   footer p {
     font-size: 14px;
     text-align: center;
+  }
+}
+
+
+/* End Footer Section Media Queries */
+
+
+/* DG Media Queries */
+
+@media(max-width:850px) {
+  .palette {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .section-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .final-design-dg-left {
+    background-image: none;
+  }
+  .final-design-atm-left {
+    background-image: none;
+  }
+  .final-design-dg {
+    background-image: none;
+  }
+  .final-design-atm {
+    background-image: none;
+  }
+  .final-mockups {
+    flex-direction: column;
+    align-items: center;
+  }
+  .final-left-port {
+    flex-direction: column-reverse;
+  }
+  .final-right {
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+  }
+  .final-left {
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+  }
+  .iphone-mock {
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media(max-width:725px) {
+  .case-facts li {
+    display: block;
+    text-align: center;
+  }
+  .dg-iphone-wireframes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media(max-width:625px) {
+  .port-case-title {
+    font-size: 42px;
+    max-width: 250px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+@media(max-width:415px) {
+  .port-section-title {
+    line-height: 1.5;
   }
 }
