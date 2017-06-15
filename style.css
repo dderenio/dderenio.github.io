@@ -1128,6 +1128,9 @@ footer p {
     right: 0;
     top: 0;
   }
+  .main-nav ul li a {
+    padding: 0px 15px;
+  }
 }
 
 @media (max-width:465px) {
