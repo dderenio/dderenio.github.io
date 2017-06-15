@@ -1205,13 +1205,14 @@ footer p {
     margin-top: 25px;
   }
   .bmo-port {
-    padding: 145px 0px;
+    padding: 105px 0px;
   }
   .portfolio-btn {
     margin-top: 20px;
   }
   .dg-portfolio {
     width: 150px;
+    height: auto;
   }
   .atm-portfolio {
     width: 150px;
