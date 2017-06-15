@@ -1210,6 +1210,10 @@ footer p {
   .portfolio-btn {
     margin-top: 20px;
   }
+  .dg-portfolio {
+    height: 27.5%;
+    width: 27.5%;
+  }
   .atm-portfolio {
     height: 27.5%;
     width: 27.5%;
