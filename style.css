@@ -5,8 +5,6 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.75em;
-  display: flex;
-  justify-content: center;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -14,9 +12,9 @@ body {
 }
 
 .wrapper {
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
+  top: 0;
 }
 
 .section-wrapper {
@@ -330,24 +328,18 @@ button a {
 }
 
 .skills-wrapper {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-self: center;
-  padding-top: 80px;
+  margin-top: 40px;
 }
 
 .skills-cnt {
-  margin: 60px auto 0px auto;
+  margin: 150px auto 100px auto;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  max-width: 42.5%;
-  padding: 10% 0 5% 0;
-  top: 50px;
-  right: 50px;
+  max-width: 505px;
+  padding: 20px 0 7.5px 0;
 }
 
 .skills-cnt p {
@@ -383,6 +375,12 @@ button a {
   background-image: url(img/ux.png);
 }
 
+.portfolio-wrapper {
+  padding-top: 20px;
+  z-index: 999;
+  position: relative;
+}
+
 .portfolio-item {
   padding: 80px 0px;
   display: flex;
@@ -390,6 +388,7 @@ button a {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  position: relative;
 }
 
 .port-cnt-wrap {
@@ -428,15 +427,22 @@ button a {
   /* transform: skewY(-3deg); */
 }
 
-.port-right-bg {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+.portfolio-bg {
   z-index: -1;
-  top: 0px;
+  position: absolute;
   background-color: #FAFAFA;
-  outline: 2px solid red;
+  height: 100%;
+  width: 100vw;
+  transform: skewY(-5deg);
+}
+
+.testimonial-bg {
+  background-color: #00DD99;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  transform: skewY(-5deg);
 }
 
 .portfolio-left {
@@ -452,28 +458,19 @@ button a {
 .bmo-portfolio {
   width: 32.5%;
   height: 42.5%;
-  /* transform: skewY(3deg); */
 }
 
 .dg-portfolio {
   width: 22.5%;
-  /* transform: skewY(3deg); */
 }
 
 .atm-portfolio {
   width: 22.5%;
-  /* transform: skewY(0deg); */
-}
-
-.testimonials {
-  background-color: #00DD99;
-  /* transform: skewY(-3deg); */
 }
 
 .test-wrapper {
   display: flex;
   padding: 9% 0;
-  /* transform: skewY(3deg); */
 }
 
 .test {
@@ -562,7 +559,7 @@ footer p {
 /************ Dolce & Gabbana Case Study CSS ************/
 
 .port-main {
-  height: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -885,17 +882,20 @@ footer p {
   position: relative;
   top: -155px;
   padding-left: 130px;
+  background-size: 110px;
+  min-height: 180px;
 }
 
 .final-left {
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: contain;
+  background-size: 110px;
   max-width: 365px;
   display: inline-block;
   position: relative;
   top: -155px;
   padding-right: 80px;
+  min-height: 180px;
 }
 
 .final-design-dg-left {
@@ -1122,7 +1122,8 @@ footer p {
   }
   .skills-cnt {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 135px;
+    max-width: 275px;
   }
   .skills-cnt li {
     margin-bottom: 60px;
@@ -1160,10 +1161,11 @@ footer p {
   .portfolio-btn {
     margin-top: 20px;
   }
-  .dg-portfolio {
+  /* .dg-portfolio {
     height: 27.5%;
     width: 27.5%;
   }
+  */
   .atm-portfolio {
     height: 27.5%;
     width: 27.5%;
