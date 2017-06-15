@@ -661,6 +661,7 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .port-section-title {
@@ -674,7 +675,8 @@ footer p {
 }
 
 .dolce-form {
-  width: 400px;
+  width: 100%;
+  height: auto;
   margin: 20px auto;
 }
 
@@ -764,11 +766,15 @@ footer p {
   width: 75%;
 }
 
+.application-wireframes {
+  margin-top: 100px;
+}
+
 .dg-iphone-wireframes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 60px;
   padding: 0;
 }
 
@@ -787,7 +793,8 @@ footer p {
 }
 
 .dg-iphone-wire {
-  width: 45%;
+  width: 200px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -1014,12 +1021,25 @@ footer p {
   background-color: #FAFAFA;
 }
 
+.atm-iphone-analysis-img {
+  width: 611px;
+  height: auto;
+}
+
 .redesign-cnt {
   padding-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .webapp-analysis {
   margin-top: 40px;
+}
+
+.atm-iphone-analysis-img {
+  width: 305px;
+  height: auto;
+  margin: 35px auto;
 }
 
 .atm-analysis-list {
@@ -1321,6 +1341,9 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .dg-iphone-wireframes li {
+    width: 50%;
   }
 }
 
