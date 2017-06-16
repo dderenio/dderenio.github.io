@@ -194,6 +194,10 @@ button a {
   margin: 30px 0;
 }
 
+.resume-btn a {
+  color: #00DD99;
+}
+
 .portfolio-btn,
 .message-btn {
   margin-top: 35px;
@@ -257,7 +261,7 @@ button a {
   justify-content: flex-start;
   padding: 17.5% 0;
   width: 100%;
-  background-image: url(img/drake-main.png);
+  background-image: url(img/drake-main.jpg);
   background-repeat: no-repeat;
   background-position: bottom right 150px;
   background-size: 275px;
@@ -363,15 +367,15 @@ button a {
 }
 
 .skills-cnt-ux {
-  background-image: url(img/research.png);
+  background-image: url(img/research.jpg);
 }
 
 .skills-cnt-front {
-  background-image: url(img/code.png);
+  background-image: url(img/code.jpg);
 }
 
 .skills-cnt-design {
-  background-image: url(img/ux.png);
+  background-image: url(img/ux.jpg);
 }
 
 .portfolio-wrapper {
@@ -578,7 +582,7 @@ footer p {
 }
 
 .main-dg {
-  background-image: url('img/dg-portfolio.png');
+  background-image: url('img/dg-portfolio.jpg');
 }
 
 .port-main-wrap {
@@ -803,7 +807,7 @@ footer p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(img/dg-final.png);
+  background-image: url(img/dg-final.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -902,11 +906,11 @@ footer p {
 }
 
 .final-design-dg {
-  background-image: url(img/dg-port-bg.png);
+  background-image: url(img/dg-port-bg.jpg);
 }
 
 .final-design-atm {
-  background-image: url(img/atm-bg-right.png);
+  background-image: url(img/atm-bg-right.jpg);
 }
 
 .final-design-txt h4 {
@@ -932,11 +936,11 @@ footer p {
 }
 
 .final-design-dg-left {
-  background-image: url(img/dg-port-bg-2.png);
+  background-image: url(img/dg-port-bg-2.jpg);
 }
 
 .final-design-atm-left {
-  background-image: url(img/atm-bg-left.png);
+  background-image: url(img/atm-bg-left.jpg);
 }
 
 .dg-footer {
@@ -963,7 +967,7 @@ footer p {
 /* ATM Case Study */
 
 .main-atm {
-  background-image: url(img/atm-portfolio.png);
+  background-image: url(img/atm-portfolio.jpg);
 }
 
 .atm-over {
@@ -1065,7 +1069,7 @@ footer p {
 .atm-final-redesign {
   height: 100vh;
   width: 100%;
-  background-image: url(img/atm-ui-final.png);
+  background-image: url(img/atm-ui-final.jpg);
   background-position: center;
   display: flex;
   justify-content: center;
@@ -1087,7 +1091,7 @@ footer p {
 
 @media (min-height: 1050px) {
   .main-wrapper {
-    background-image: url(img/Drake-main-lrg.png);
+    background-image: url(img/Drake-main-lrg.jpg);
     background-size: 33.5%;
     background-position: bottom right 8.5%;
   }
