@@ -416,7 +416,7 @@ button a {
 }
 
 .bmo-port {
-  padding: 185px 0px;
+  padding: 130px 0px;
 }
 
 .portfolio-item p {
@@ -486,7 +486,7 @@ button a {
 
 .test-wrapper {
   display: flex;
-  padding: 9% 0;
+  padding: 4.5% 0;
 }
 
 .test {
@@ -508,7 +508,7 @@ button a {
 
 .test h4 {
   line-height: 35px;
-  max-width: 550px;
+  max-width: 600px;
   font-weight: 500;
 }
 
@@ -536,7 +536,7 @@ button a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15.5% 0;
+  padding: 12.5% 0;
 }
 
 .contact-wrap p {
@@ -1071,6 +1071,7 @@ footer p {
   width: 100%;
   background-image: url(img/atm-ui-final.jpg);
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
