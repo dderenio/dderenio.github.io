@@ -145,6 +145,10 @@ button a {
   transition: color 200ms ease-in-out;
 }
 
+.main-nav ul li a span {
+  color: #00DD99;
+}
+
 .btn {
   color: #00DD99;
   padding: 10px 20px;
