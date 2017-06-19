@@ -1148,7 +1148,7 @@ footer p {
   }
   header {
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px 10px;
     display: flex;
     justify-content: center;
   }
@@ -1161,6 +1161,7 @@ footer p {
 @media (max-width:465px) {
   .main-txt {
     padding: 0px 25px;
+    top: -60px;
   }
   .main-txt h1 {
     line-height: 1.05;
