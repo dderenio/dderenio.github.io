@@ -26,7 +26,7 @@ body {
 
 header {
   width: 100%;
-  position: absolute;
+  margin: 0 auto;
 }
 
 a {
@@ -112,25 +112,26 @@ button a {
 }
 
 .main-nav {
-  max-width: 385px;
+  width: 350px;
   position: relative;
   float: right;
   right: 6.5vw;
   top: 55px;
-  overflow: hidden;
   z-index: 999;
 }
 
 .main-nav ul {
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: space-around;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .main-nav ul li {
   list-style: none;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .main-nav ul li a {
@@ -153,27 +154,29 @@ button a {
   transition: transform 350ms ease-in-out;
 }
 
-.btn:hover {
+
+/* .btn:hover {
   transform: scale(1.08);
   transition: all 350ms ease-in-out;
   cursor: pointer;
-}
+} */
 
 .contact-btn {
   border: 2px solid #00DD99;
   position: relative;
   z-index: 999;
+  display: block;
   overflow: hidden;
 }
 
-.contact-btn:hover {
+.contact-btn:hover span {
   color: white;
   transition: color 150ms ease-in;
 }
 
 .contact-btn:hover .contact-bg {
-  top: -14px;
-  transition: all 100ms ease-in-out;
+  transform: translateY(-52px) translateX(-60px);
+  transition: all 150ms ease-in-out;
 }
 
 .contact-bg {
@@ -181,11 +184,9 @@ button a {
   height: 100%;
   width: 100%;
   position: absolute;
-  right: -40px;
-  top: 35px;
-  border-radius: 100px;
+  transform: translateY(81.5px) translateX(80px);
+  transition: all 150ms ease-in-out;
   z-index: -999;
-  transition: all 100ms ease-in-out;
 }
 
 .resume-btn {
@@ -259,13 +260,12 @@ button a {
 .main-wrapper {
   display: flex;
   justify-content: flex-start;
-  padding: 17.5% 0;
   width: 100%;
   background-image: url(img/drake-main.jpg);
   background-repeat: no-repeat;
   background-position: bottom right 150px;
   background-size: 275px;
-  min-height: 90vh;
+  min-height: 85vh;
   max-height: 100vh;
 }
 
@@ -332,6 +332,7 @@ button a {
 
 .skills-wrapper {
   margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 .skills-cnt {
@@ -458,8 +459,8 @@ button a {
 }
 
 .bmo-portfolio {
-  width: 32.5%;
-  height: 42.5%;
+  width: 550px;
+  height: auto;
 }
 
 .dg-portfolio {
@@ -474,7 +475,7 @@ button a {
 }
 
 .atm-portfolio {
-  width: 22.5%;
+  height: 500px;
   transform: translateY(20px);
   transition: transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -486,7 +487,7 @@ button a {
 
 .test-wrapper {
   display: flex;
-  padding: 4.5% 0%;
+  padding: 6.5% 0%;
 }
 
 .test {
@@ -1142,18 +1143,14 @@ footer p {
     display: none;
   }
   header {
+    width: 100%;
+    padding: 20px 0px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #FAFAFA;
-    padding: 20px 0px;
   }
   .main-nav {
     right: 0;
     top: 0;
-  }
-  .main-nav ul li a {
-    padding: 0px 15px;
   }
 }
 
