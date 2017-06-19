@@ -463,7 +463,7 @@ button a {
 }
 
 .bmo-portfolio {
-  width: 550px;
+  width: 450px;
   height: auto;
 }
 
@@ -1301,10 +1301,7 @@ footer p {
     align-items: center;
     flex-wrap: wrap;
   }
-  .section-wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+  .section-wrapper {}
   .final-design-dg-left {
     background-image: none;
   }
