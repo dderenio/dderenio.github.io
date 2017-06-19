@@ -486,7 +486,7 @@ button a {
 
 .test-wrapper {
   display: flex;
-  padding: 4.5% 0;
+  padding: 4.5% 0%;
 }
 
 .test {
