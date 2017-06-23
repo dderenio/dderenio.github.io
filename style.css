@@ -1202,6 +1202,11 @@ footer p {
   .main-txt h1 {
     line-height: 1.05;
   }
+  @media(max-width:365px) {
+    .main-txt h1 {
+      font-size: 36px;
+    }
+  }
 }
 
 
@@ -1307,6 +1312,20 @@ footer p {
 @media(max-width:675px) {
   .case-facts {
     align-items: flex-start;
+  }
+}
+
+@media(max-width:465px) {
+  .case-facts {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media(max-width:380px) {
+  .project-over-title {
+    font-size: 36px;
+    line-height: 1.2;
   }
 }
 
@@ -1423,5 +1442,11 @@ footer p {
 @media(max-width:415px) {
   .port-section-title {
     line-height: 1.5;
+  }
+}
+
+@media(max-width:370px) {
+  .atm-iphone-analysis-img {
+    width: 250px;
   }
 }
