@@ -154,8 +154,6 @@ button a {
   padding: 10px 20px;
   border-radius: 100px;
   font-size: 14px;
-  transform: scale(1);
-  transition: transform 350ms ease-in-out;
 }
 
 
@@ -203,8 +201,7 @@ button a {
   color: #00DD99;
 }
 
-.portfolio-btn,
-.message-btn {
+.portfolio-btn {
   margin-top: 35px;
   padding: 15px 35px;
   font-size: 14px;
@@ -215,11 +212,12 @@ button a {
 }
 
 .message-btn {
-  background-color: transparent;
-  border: 0px solid transparent;
+  border: 2px solid transparent;
+  background-color: #00DD99;
 }
 
-.message-btn-bg {
+
+/* .message-btn-bg {
   height: 100%;
   width: 100%;
   background-color: #00DD99;
@@ -229,14 +227,25 @@ button a {
   top: -13.5px;
   z-index: -999;
   transition: all 125ms ease-in;
-}
+} */
 
 .message-btn span {
-  position: relative;
-  transition: all 200ms ease-out;
+  transition: color 200ms ease-out;
+}
+
+.message-btn:hover {
+  background-color: white;
+  border: 2px solid #00DD99;
+  transition: background-color 200ms ease-out;
 }
 
 .message-btn:hover span {
+  color: #00DD99;
+  transition: color 200ms ease-out;
+}
+
+
+/*.message-btn:hover span {
   left: 200px;
   transition: all 200ms ease-out;
 }
@@ -252,14 +261,14 @@ button a {
   width: 65px;
   left: 20px;
   transition: all 125ms ease-in;
-}
+} 
 
 .message-icon {
   position: absolute;
   right: 200px;
   top: 5px;
   height: 70%;
-}
+} */
 
 .main-wrapper {
   display: flex;
@@ -623,12 +632,15 @@ footer p {
   color: white;
   position: absolute;
   bottom: 8.5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .case-facts li {
-  display: inline-block;
   padding: 0px 20px;
-  margin: 0 auto;
+  list-style: none;
 }
 
 .case-facts-gold {
@@ -657,7 +669,7 @@ footer p {
 }
 
 .project-over-wrap {
-  max-width: 650px;
+  max-width: 750px;
   text-align: center;
 }
 
@@ -680,7 +692,7 @@ footer p {
 }
 
 .port-analysis {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .dolce-form {
@@ -690,7 +702,7 @@ footer p {
 }
 
 .port-width-wrap {
-  max-width: 650px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -840,6 +852,7 @@ footer p {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .palette {
@@ -987,6 +1000,7 @@ footer p {
   margin: 20px auto;
   max-width: 650px;
   width: 100%;
+  display: block;
 }
 
 .card-sorting p {
@@ -1024,6 +1038,9 @@ footer p {
 
 .atm-kiosk-home {
   width: 100%;
+  max-width: 650px;
+  margin: 20px auto;
+  display: block;
 }
 
 .web-app-redesign {
@@ -1064,7 +1081,9 @@ footer p {
 
 .atm-wireframes {
   width: 100%;
-  margin: 20px 0px;
+  max-width: 650px;
+  margin: 30px auto;
+  display: block;
 }
 
 .design-iteration-cycles {
@@ -1148,13 +1167,17 @@ footer p {
   }
   header {
     width: 100%;
-    padding: 20px 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    background-color: #00DD99;
   }
   .main-nav {
     right: 0;
     top: 0;
+  }
+  .main-nav ul li a {
+    color: white;
   }
 }
 
@@ -1217,7 +1240,19 @@ footer p {
 
 /* Portfolio Section Media Queries */
 
+@media(max-width:850px) {
+  .back-nav {
+    display: none;
+  }
+  .color {
+    margin: 30px auto;
+  }
+}
+
 @media(max-width:780px) {
+  .project-over-wrap {
+    padding: 0px 30px;
+  }
   .portfolio-item {
     flex-direction: column-reverse;
     text-align: center;
@@ -1227,6 +1262,10 @@ footer p {
     align-items: center;
     margin: 25px 0px 0px 0px;
     max-width: 450px;
+    padding: 0px 30px;
+  }
+  .port-width-wrap {
+    padding: 0px 30px;
   }
   .dg-port {
     margin-top: 25px;
@@ -1239,22 +1278,22 @@ footer p {
     margin-top: 20px;
   }
   .dg-portfolio {
-    width: 150px;
+    max-width: 250px;
     height: auto;
   }
   .atm-portfolio {
-    width: 150px;
+    max-width: 250px;
     height: auto;
   }
   .bmo-portfolio {
-    width: 200px;
+    width: 300px;
     height: auto;
   }
 }
 
-@media(max-width:465px) {
-  .port-cnt-wrap {
-    padding: 0px 25px;
+@media(max-width:675px) {
+  .case-facts {
+    align-items: flex-start;
   }
 }
 
@@ -1298,9 +1337,12 @@ footer p {
 
 @media(max-width:850px) {
   .palette {
-    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+  }
+  .palette-color {
+    width: 50%;
+    align-items: center;
   }
   .section-wrapper {}
   .final-design-dg-left {
@@ -1342,12 +1384,17 @@ footer p {
     text-align: center;
   }
   .dg-iphone-wireframes {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .dg-iphone-wireframes li {
     width: 50%;
+  }
+  .dg-iphone-wire {
+    width: 125px;
+  }
+  .typography {
+    padding: 0px 30px;
   }
 }
 
