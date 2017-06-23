@@ -209,6 +209,8 @@ button a {
   background-color: transparent;
   color: white;
   background-color: #00DD99;
+  border: 2px solid transparent;
+  transition: all 200ms ease-out;
 }
 
 .message-btn {
@@ -230,18 +232,20 @@ button a {
 } */
 
 .message-btn span {
-  transition: color 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 
+.portfolio-btn:hover,
 .message-btn:hover {
   background-color: white;
   border: 2px solid #00DD99;
-  transition: background-color 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 
+.portfolio-btn:hover a,
 .message-btn:hover span {
   color: #00DD99;
-  transition: color 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 
 
@@ -1178,6 +1182,15 @@ footer p {
   }
   .main-nav ul li a {
     color: white;
+  }
+  .main-nav ul li a:hover {
+    color: white;
+  }
+  .main-nav ul li a span {
+    color: white;
+  }
+  .contact-btn {
+    border: 2px solid white;
   }
 }
 
