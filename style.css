@@ -235,7 +235,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
+  margin-left: 175px;
 }
 
 .main-txt {
@@ -279,12 +279,11 @@ h6 {
 }
 
 .title-left {
-  left: 8.5vw;
-  position: relative;
-  display: inline-block;
+  display: block;
   padding-top: 130px;
   z-index: 999;
-  margin-top: 0;
+  max-width: 775px;
+  margin: 0 auto;
 }
 
 .skills-wrapper {
@@ -293,7 +292,7 @@ h6 {
 }
 
 .skills-cnt {
-  margin: 10px auto 100px auto;
+  margin: 60px auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -346,9 +345,10 @@ h6 {
   padding: 80px 0px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
+  max-width: 775px;
 }
 
 .port-cnt-wrap {
@@ -368,13 +368,8 @@ h6 {
 }
 
 .dg-port {
-  padding: 0px 0px 100px 0px;
   position: relative;
   margin: 0;
-}
-
-.bmo-port {
-  padding: 130px 0px;
 }
 
 .portfolio-item p {
@@ -415,21 +410,18 @@ h6 {
   margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
   align-items: center;
 }
 
-.bmo-portfolio {
-  width: 425px;
-  height: auto;
+.oakley-portfolio {
+  width: 100%;
+  max-width: 350px;
 }
 
-.dg-portfolio {
-  height: 500px;
-}
-
+.dg-portfolio,
 .atm-portfolio {
-  height: 500px;
+  width: 275px;
+  max-width: 250px;
 }
 
 .port-img {
@@ -563,40 +555,6 @@ footer p {
   position: relative;
 }
 
-.back-nav {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-  top: 0px;
-  z-index: 999;
-}
-
-.dg-nav {
-  background-color: #948348;
-}
-
-.atm-nav {
-  background-color: #F4801D;
-}
-
-.back-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.back-nav a p {
-  color: white;
-  margin: 0px 0px 0px 10px;
-  font-weight: 400;
-}
-
-.back-btn {
-  height: 15px;
-}
-
 .port-case-title {
   color: white;
 }
@@ -643,7 +601,7 @@ footer p {
 }
 
 .project-over-wrap {
-  max-width: 750px;
+  max-width: 585px;
   text-align: center;
 }
 
@@ -676,7 +634,7 @@ footer p {
 }
 
 .port-width-wrap {
-  max-width: 750px;
+  max-width: 675px;
   margin: 0 auto;
 }
 
@@ -1083,6 +1041,155 @@ footer p {
 /************ End Dolce & Gabbana Case Study CSS ************/
 
 
+/************ Oakley Case Study CSS ******************/
+
+.oakley-main {
+  background-image: url(img/Oakley%20Main.png);
+}
+
+.oakley-nav,
+.oakley-over {
+  background-color: #4ADA99;
+}
+
+.case-facts-green {
+  color: #4ADA99;
+  font-weight: 800;
+  padding: 0px 5px;
+}
+
+.case-subsection {
+  text-align: center;
+  margin: 60px 0 20px 0px;
+}
+
+.oakley-pain-points {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+
+.oakley-pain-points li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 60px 0px;
+}
+
+.oakley-pain-points li img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.oakley-pain-points-cnt {
+  margin-left: 100px;
+  max-width: 380px;
+  display: inline;
+}
+
+.oakley-solution-goals {
+  text-align: center;
+  margin: 60px 0px;
+  padding: 0;
+}
+
+.oakley-solution-goals li {
+  list-style: none;
+  margin: 40px auto;
+}
+
+.oakley-solution-goals li img {
+  width: 45px;
+  margin-bottom: 7.5px;
+}
+
+.solution-goals-title {
+  margin: 0;
+}
+
+.oakley-final-redesign {
+  background-image: url(img/design-process.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oakley-redesign-plp,
+.oakley-redesign-pdp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.oakley-redesign-plp {
+  margin-top: 40px;
+}
+
+.oakley-redesign-pdp {
+  margin-top: 20px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.oakley-plp-cnt,
+.oakley-pdp-cnt {
+  max-width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+.oakley-plp-section {
+  margin-top: 20px;
+}
+
+.oakley-redesign-img {
+  width: 100%;
+  max-width: 950px;
+  margin: 20px 0px;
+}
+
+.plp-cnt-desc {
+  margin-top: 0px;
+}
+
+.oakley-redesign-video {
+  display: block;
+  position: relative;
+  min-width: 100%;
+  padding: 0px 10px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 70.3%;
+  height: 0;
+  overflow: hidden;
+  height: auto;
+  margin: 0 auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.oakley-final-takeaways {
+  margin: 70px auto;
+}
+
+
+/************ End of Oakley Case Study CSS ******************/
+
+
 /* Media Queries */
 
 
@@ -1207,7 +1314,7 @@ footer p {
   }
   .skills-cnt {
     text-align: center;
-    margin: 35px auto 60px auto;
+    margin: 60px auto;
     max-width: 275px;
   }
   .skills-cnt li {
@@ -1220,6 +1327,8 @@ footer p {
   }
   .title-left {
     padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 
@@ -1228,6 +1337,21 @@ footer p {
 
 
 /* Portfolio Section Media Queries */
+
+@media(max-width:1015px) {
+  .oakley-portfolio {
+    max-width: 325px;
+  }
+}
+
+@media(max-width:900px) {
+  .oakley-pain-points-cnt {
+    margin-left: 50px;
+  }
+  .oakley-portfolio {
+    max-width: 300px;
+  }
+}
 
 @media(max-width:850px) {
   .back-nav {
@@ -1238,6 +1362,23 @@ footer p {
   }
 }
 
+@media(max-width:800px) {
+  .oakley-pain-points li {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .oakley-pain-points li img {
+    margin-bottom: 20px;
+  }
+  .oakley-pain-points-cnt {
+    margin-left: 0px;
+    max-width: 500px;
+  }
+  .oakley-pain-points li img {
+    max-width: 500px;
+  }
+}
+
 @media(max-width:780px) {
   .project-over-wrap {
     padding: 0px 30px;
@@ -1245,6 +1386,7 @@ footer p {
   .portfolio-item {
     flex-direction: column-reverse;
     text-align: center;
+    padding: 30px 0px;
   }
   .port-cnt-wrap {
     justify-content: center;
@@ -1259,10 +1401,6 @@ footer p {
   .dg-port {
     margin-top: 25px;
   }
-  .bmo-port {
-    padding: 85px 0px 100px 0px;
-    height: 100%;
-  }
   .portfolio-btn {
     margin-top: 20px;
   }
@@ -1274,9 +1412,9 @@ footer p {
     max-width: 250px;
     height: auto;
   }
-  .bmo-portfolio {
-    width: 300px;
-    height: auto;
+  .oakley-portfolio {
+    max-width: 400px;
+    padding: 15px;
   }
 }
 
