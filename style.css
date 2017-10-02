@@ -262,8 +262,8 @@ h6 {
 }
 
 .about-cnt p {
-  max-width: 675px;
-  text-align: center;
+  max-width: 680px;
+  text-align: left;
   color: white;
   font-size: 16.5px;
   font-weight: 500;
@@ -362,9 +362,9 @@ h6 {
 }
 
 .port-cnt-wrap-left {
-  align-items: flex-end;
   padding-right: 0;
   margin-left: 80px;
+  margin-right: 0px;
 }
 
 .dg-port {
@@ -406,7 +406,6 @@ h6 {
 
 .portfolio-left {
   position: relative;
-  text-align: right;
   margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
