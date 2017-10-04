@@ -1185,6 +1185,10 @@ footer p {
   height: 100%;
 }
 
+.oakley-product-over {
+  padding: 0;
+}
+
 .oakley-product-over li {
   list-style: none;
 }
