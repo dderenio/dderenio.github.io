@@ -246,7 +246,7 @@ h6 {
 .intro-txt {
   color: #9B9B9B;
   line-height: 1.85;
-  max-width: 425px;
+  max-width: 380px;
   font-weight: 300;
   font-size: 17px;
 }
@@ -359,6 +359,10 @@ h6 {
   align-items: flex-start;
   align-self: center;
   margin-right: 80px;
+}
+
+.port-cnt-wrap h4 {
+  max-width: 330px;
 }
 
 .port-cnt-wrap-left {
